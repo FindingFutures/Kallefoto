@@ -21,19 +21,21 @@
         <span>Stadar<i class="arrow right"></i></span>
         <div class="dropdown_content">
           <ul>
-            <li style="list-style-type: none;"><a class="understrek" href="sogndal">Sogndal</a></li>
-            <li style="list-style-type: none;"><a class="understrek" href="luster">Luster</a></li>
-            <li style="list-style-type: none;"><a class="understrek" href="leikanger">Leikanger</a></li>
-            <li style="list-style-type: none;"><a class="understrek" href="balestrand">Balestrand</a></li>
-            <li style="list-style-type: none;"><a class="understrek" href="bilar">Bilar & Dyr</a></li>
+            <li style="list-style-type: none;"><a class="understrek" href="/sogndal">Sogndal</a></li>
+            <li style="list-style-type: none;"><a class="understrek" href="/luster">Luster</a></li>
+            <li style="list-style-type: none;"><a class="understrek" href="/leikanger">Leikanger</a></li>
+            <li style="list-style-type: none;"><a class="understrek" href="/balestrand">Balestrand</a></li>
+            <li style="list-style-type: none;"><a class="understrek" href="/bilar">Bilar & Dyr</a></li>
           </ul>
         </div>
       </div>
-    <a href="om_kallefoto.html" class="understrek">Om Kallefoto</a>
-    <a href="kontakt.php" class="understrek kontakt_a">Kontakt meg</a>
+    <a href="/om" class="understrek">Om Kallefoto</a>
+    <a href="/kontakt" class="understrek kontakt_a">Kontakt meg</a>
     </nav>
 
-  <h1>Kallefoto</h1>
+@if (Request::is('index') || Request::is('/'))
+    <h1>Kallefoto</h1>
+@endif
 
   <div class="pil_breidd"><a class="pil_a" href="#ned"><div class="fas fa-arrow-circle-down pil"></div></a></div>
 

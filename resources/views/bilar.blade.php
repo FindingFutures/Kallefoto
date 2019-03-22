@@ -6,29 +6,6 @@
 
 @section('body')
 
-
-  <header id="opp">
-    <nav>
-      <a href="index.html" class="understrek">Heim</a>
-      <div class="dropdown">
-        <span>Stadar<i class="arrow right"></i></span>
-        <div class="dropdown_content">
-          <ul>
-            <li style="list-style-type: none;"><a href="sogndal.html" class="understrek">Sogndal</a></li>
-            <li style="list-style-type: none;"><a href="luster.html" class="understrek">Luster</a></li>
-            <li style="list-style-type: none;"><a href="#" class="understrek">Leikanger</a></li>
-            <li style="list-style-type: none;"><a href="balestrand.html" class="understrek">Balestrand</a></li>
-          </ul>
-        </div>
-      </div>
-      <a href="#" class="understrek">Om Kallefoto</a>
-      <a href="#" class="understrek">Kontakt meg</a>
-    </nav>
-
-    <div class="pil_breidd"><a class="pil_a" href="#ned"><div class="fas fa-arrow-circle-down pil pil_under"></div></a></div>
-
-</header>
-
 <main id="ned">
 
   <h2>Bilar og Dyr</h2>
