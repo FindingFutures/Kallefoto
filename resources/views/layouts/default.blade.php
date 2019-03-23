@@ -44,7 +44,8 @@
 @yield('body')
 
 <footer>
-  <p>Kontakt meg på: kallebilde@gmail.com eller tlf: 97194135. Alle rettigheitar tilhøyrer Karl Johan Ølnes</p>
+  <p>Kontakt meg på: kallebilde@gmail.com eller tlf: 97194135. Alle rettigheitar tilhøyrer Karl Johan Ølnes<br>
+  Copyright Kallefoto {{ date('Y') }}</p>
 </footer>
 
 <script>
