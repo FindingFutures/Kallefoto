@@ -283,6 +283,26 @@ footer {
   background-color: #232323;
   color: #FFF;
   font-size: 0.9em;
+  padding: 2em 4em;
+}
+
+footer p {
+  padding: 0;
+}
+
+footer hr {
+  width: calc(100% + 8em);
+  margin: 2em 0 2em -4em;
+}
+
+footer .findingfutures {
+  font-size: 12px;
+  text-align: center;
+}
+
+footer .findingfutures a {
+  color: #a2d565;
+  text-decoration: none;
 }
 
 @media (max-width: 1366px) {
