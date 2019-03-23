@@ -16,4 +16,8 @@ class PagesController extends Controller
       $about = About::find('1');
       return view('om_kallefoto')->withAbout($about);
     }
+
+    public function showContact(){
+      return view('kontakt');
+    }
 }
