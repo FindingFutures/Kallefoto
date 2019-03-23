@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\About;
 
 class PagesController extends Controller
 {
@@ -12,6 +13,7 @@ class PagesController extends Controller
     }
 
     public function showAbout(){
-      return view('om_kallefoto');
+      $about = About::find('1');
+      return view('om_kallefoto')->withAbout($about);
     }
 }

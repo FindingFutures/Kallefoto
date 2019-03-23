@@ -4,19 +4,56 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Dashboard</div>
-
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    You are logged in!
-                </div>
+          @if (Session::has('success'))
+            <div class="alert alert-success" role="alert">
+              {{ Session::get('success') }}
             </div>
+          @endif
+          <div class="title">
+            Dashboard
+          </div>
+          <hr>
+          <div class="card">
+            <div class="card-header">
+              Undersider
+            </div>
+            <div class="card-body">
+              <div class="row justify-content-center">
+                <a href="/admin/about/{title}" class="mr-3 btn btn-md btn-primary">
+                  Sogndal
+                </a>
+                <a href="/admin/about/{title}" class="mr-3 btn btn-md btn-primary">
+                  Luster
+                </a>
+                <a href="/admin/about/{title}" class="btn btn-md btn-primary">
+                  Leikanger
+                </a>
+              </div>
+              <div class="row justify-content-center mt-3">
+                <a href="/admin/about/{title}" class="mr-3 btn btn-md btn-primary">
+                  Balestrand
+                </a>
+                <a href="/admin/about/{title}" class="btn btn-md btn-primary">
+                  Bilar og Dyr
+                </a>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="card">
+            <div class="card-header">
+              Om
+            </div>
+            <div class="card-body">
+              <form class="form" method="POST" action="/admin/om/1">
+                @csrf
+                <input type="hidden" name="_method" value="PUT">
+                <label for="form-control">Tekst</label>
+                <textarea name="body" rows="8" cols="80" class="form-control mb-3">{{ $about->body }}</textarea>
+                <button type="submit" class="btn btn-sm btn-success">Submit</button>
+              </form>
+            </div>
+          </div>
         </div>
     </div>
 </div>
