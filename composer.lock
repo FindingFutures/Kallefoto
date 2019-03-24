@@ -4,8 +4,68 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "29abc629e807486c1f7671207a91eec9",
+    "content-hash": "33369636c217ada713c732f925a5ed53",
     "packages": [
+        {
+            "name": "buglinjo/laravel-webp",
+            "version": "v1.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/buglinjo/laravel-webp.git",
+                "reference": "b2cadc79da34f464901e3faec2fc3c6527abe571"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/buglinjo/laravel-webp/zipball/b2cadc79da34f464901e3faec2fc3c6527abe571",
+                "reference": "b2cadc79da34f464901e3faec2fc3c6527abe571",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.1",
+                "php": "~5.6|~7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=5.4.3",
+                "squizlabs/php_codesniffer": "^2.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Buglinjo\\LaravelWebp\\LaravelWebpServiceProvider"
+                    ],
+                    "aliases": {
+                        "WebP": "Buglinjo\\LaravelWebp\\LaravelWebp"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Buglinjo\\LaravelWebp\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Irakli Tchitadze",
+                    "email": "irakli.tchitadze@gmail.com",
+                    "homepage": "http://buglinjo.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel 5 package for WebP image format",
+            "homepage": "https://github.com/buglinjo/laravel-webp",
+            "keywords": [
+                "Buglinjo",
+                "LaravelWebp",
+                "Webp",
+                "laravel"
+            ],
+            "time": "2019-02-27T22:18:29+00:00"
+        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",

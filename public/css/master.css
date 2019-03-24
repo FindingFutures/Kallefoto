@@ -263,7 +263,8 @@ h2 {
 
 p {
   font-size: 1.25em;
-  padding: 2em 4em 2em 4em;
+  margin-left: 2em;
+  width: 10%;
   line-height: 1.4em;
 }
 
