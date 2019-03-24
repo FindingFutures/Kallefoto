@@ -58,7 +58,7 @@ nav a {
 header {
   height: 85vh;
   width: 100%;
-  background-image: url("/bilder/loftesnesbrui.jpg");
+  background-image: url("/assets/bilder/loftesnesbrui.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
