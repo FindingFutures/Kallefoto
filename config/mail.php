@@ -9,7 +9,7 @@ return [
     'port' => env('MAIL_PORT', 587),
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'tobias@barsnes.tk'),
+        'address' => env('MAIL_FROM_ADDRESS', 'post@kallefoto.no'),
         'name' => env('MAIL_FROM_NAME', 'Kallefoto'),
     ],
 
@@ -30,5 +30,13 @@ return [
     ],
 
     'log_channel' => env('MAIL_LOG_CHANNEL'),
+
+    'stream' => [
+        'ssl' => [
+            'allow_self_signed' => true,
+            'verify_peer' => false,
+            'verify_peer_name' => false,
+        ],
+    ]
 
 ];
