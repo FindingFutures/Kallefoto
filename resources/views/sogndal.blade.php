@@ -21,7 +21,7 @@
 
   <div class="bilder_galleri">
     <div>
-    <img src="../bilder/sogndal/002.jpg">
+    <img src="https://unsplash.it/1920/3000?random">
     <img src="https://unsplash.it/1920/1081?random">
     <img src="https://unsplash.it/1920/2500?random"></div>
     <div><img src="https://unsplash.it/1920/1200?random">
