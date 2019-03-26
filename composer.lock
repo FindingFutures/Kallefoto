@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "33369636c217ada713c732f925a5ed53",
+    "content-hash": "8e15924744e4cc84ba7f01e8f4762e29",
     "packages": [
         {
             "name": "buglinjo/laravel-webp",

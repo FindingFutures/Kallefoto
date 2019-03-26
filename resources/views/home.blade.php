@@ -9,6 +9,11 @@
               {{ Session::get('success') }}
             </div>
           @endif
+          @if ($errors->any())
+            <div class="alert alert-danger" role="alert">
+                {{ implode('', $errors->all(':message')) }}
+            </div>
+          @endif
           <div class="title">
             Dashboard
           </div>
@@ -45,11 +50,25 @@
               Om
             </div>
             <div class="card-body">
-              <form class="form" method="POST" action="/admin/om/1">
+              <form class="form" method="POST" action="/admin/om/1" enctype="multipart/form-data">
                 @csrf
                 <input type="hidden" name="_method" value="PUT">
                 <label for="form-control">Tekst</label>
                 <textarea name="body" rows="8" cols="80" class="form-control mb-3">{{ $about->body }}</textarea>
+                <button type="submit" class="btn btn-sm btn-success">Submit</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              Bilde
+            </div>
+            <div class="card-body">
+              <form class="form" method="POST" action="/upload/image" enctype="multipart/form-data">
+                @csrf
+                <input type="hidden" name="_method" value="PUT">
+                <input type="file" name="image" value="">
                 <button type="submit" class="btn btn-sm btn-success">Submit</button>
               </form>
             </div>
