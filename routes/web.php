@@ -17,3 +17,5 @@ Route::get('/sogndal', 'SubpagesController@showSogndal');
 Route::get('/leikanger', 'SubpagesController@showLeikanger');
 Route::get('/luster', 'SubpagesController@showLuster');
 Route::get('/bilar', 'SubpagesController@showBilar');
+
+Route::put('/upload/image', 'ImagesController@store')->name('image.store');
