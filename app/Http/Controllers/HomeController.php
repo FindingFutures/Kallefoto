@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\About;
+use App\Subpage;
 
 class HomeController extends Controller
 {
@@ -25,6 +26,8 @@ class HomeController extends Controller
     public function index()
     {
         $about = About::find(1);
-        return view('home')->withAbout($about);
+        $subpages = Subpage::get();
+
+        return view('home')->withAbout($about)->withSubpages($subpages);
     }
 }

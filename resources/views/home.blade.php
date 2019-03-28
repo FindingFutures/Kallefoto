@@ -45,6 +45,33 @@
             </div>
           </div>
           <hr>
+
+          <div class="card mb-3">
+            <div class="card-header">
+              Bilde
+            </div>
+            <div class="card-body">
+              <form class="form" method="POST" action="/upload/image" enctype="multipart/form-data">
+                @csrf
+                <div class="row mb-3">
+                  <div class="col">
+                    <input type="hidden" name="_method" value="PUT">
+                    <input type="file" name="image" value="" class="form-control">
+                  </div>
+                  <div class="col">
+                    <select class="form-control" name="subpage_id">
+                      <option value="" disabled selected>Velg ein</option>
+                      @foreach ($subpages as $subpage)
+                        <option value="{{ $subpage->id }}">{{ $subpage->title }}</option>
+                      @endforeach
+                    </select>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-sm btn-success">Submit</button>
+              </form>
+            </div>
+          </div>
+
           <div class="card">
             <div class="card-header">
               Om
@@ -55,20 +82,6 @@
                 <input type="hidden" name="_method" value="PUT">
                 <label for="form-control">Tekst</label>
                 <textarea name="body" rows="8" cols="80" class="form-control mb-3">{{ $about->body }}</textarea>
-                <button type="submit" class="btn btn-sm btn-success">Submit</button>
-              </form>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-header">
-              Bilde
-            </div>
-            <div class="card-body">
-              <form class="form" method="POST" action="/upload/image" enctype="multipart/form-data">
-                @csrf
-                <input type="hidden" name="_method" value="PUT">
-                <input type="file" name="image" value="">
                 <button type="submit" class="btn btn-sm btn-success">Submit</button>
               </form>
             </div>
