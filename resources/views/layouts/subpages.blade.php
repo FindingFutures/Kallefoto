@@ -6,7 +6,7 @@
 
   <div class="bilder_galleri">
     @foreach ($subpage->images as $image)
-      <img src="{{ asset('/images/subpages/' . $image->big_image) }}" alt="">
+      <img src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="">
     @endforeach
   </div>
 
