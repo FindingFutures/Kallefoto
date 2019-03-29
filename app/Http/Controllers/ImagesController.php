@@ -54,8 +54,6 @@ class ImagesController extends Controller
       $image->fit($width, $height);
       $image->save($location);
 
-      Bilde::compressImage($location);
-
       $subpageImage->small_image = 'small_' . $filename;
       $subpageImage->save();
 
