@@ -14,20 +14,47 @@
 
 
 <div class="bilder_galleri">
-  <div><img src="https://unsplash.it/1920/3000?random">
-  <img src="https://unsplash.it/1920/1081?random">
-  <img src="https://unsplash.it/1920/2500?random"></div>
-  <div class="rad_2"><img src="https://unsplash.it/1920/1200?random">
-  <img src="https://unsplash.it/1920/2300?random">
-  <img src="https://unsplash.it/1920/2950?random"></div>
-  <div class="rad_3"><img src="https://unsplash.it/1920/1400?random">
-  <img src="https://unsplash.it/1920/1080?random">
-  <img src="https://unsplash.it/1920/1800?random">
-  <img src="https://unsplash.it/1920/2001?random"></div>
-  <div class="rad_4"><img src="https://unsplash.it/1925/1005?random">
-  <img src="https://unsplash.it/1920/1985?random">
-  <img src="https://unsplash.it/1920/1505?random">
-  <img src="https://unsplash.it/1920/1990?random"></div>
+  <div class="">
+    @php
+      $num = 0;
+    @endphp
+    @foreach ($images as $image)
+      @php
+        $num ++;
+      @endphp
+      @if ($num % 2 != 0 && $num % 3 != 0)
+        <img src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="">
+      @endif
+    @endforeach
+  </div>
+
+  <div class="">
+    @php
+      $num = 0;
+    @endphp
+    @foreach ($images as $image)
+      @php
+        $num ++;
+      @endphp
+      @if ($num % 2 == 0 && $num % 3 !== 0)
+        <img src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="">
+      @endif
+    @endforeach
+  </div>
+
+  <div class="">
+    @php
+      $num = 0;
+    @endphp
+    @foreach ($images as $image)
+      @php
+        $num ++;
+      @endphp
+      @if ($num % 3 == 0)
+        <img src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="">
+      @endif
+    @endforeach
+  </div>
 </div>
 
 

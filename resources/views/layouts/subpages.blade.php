@@ -5,9 +5,49 @@
   <p>{{ $subpage->body }}</p>
 
   <div class="bilder_galleri">
-    @foreach ($subpage->images as $image)
-      <img src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="">
-    @endforeach
+    
+    <div class="">
+      @php
+        $num = 0;
+      @endphp
+      @foreach ($subpage->images as $image)
+        @php
+          $num ++;
+        @endphp
+        @if ($num % 2 != 0 && $num % 3 != 0)
+          <img src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="">
+        @endif
+      @endforeach
+    </div>
+
+    <div class="">
+      @php
+        $num = 0;
+      @endphp
+      @foreach ($subpage->images as $image)
+        @php
+          $num ++;
+        @endphp
+        @if ($num % 2 == 0 && $num % 3 !== 0)
+          <img src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="">
+        @endif
+      @endforeach
+    </div>
+
+    <div class="">
+      @php
+        $num = 0;
+      @endphp
+      @foreach ($subpage->images as $image)
+        @php
+          $num ++;
+        @endphp
+        @if ($num % 3 == 0)
+          <img src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="">
+        @endif
+      @endforeach
+    </div>
+
   </div>
 
     <div class="pil_breidd"><a class="pil_a" href="#opp"><div class="fas fa-arrow-circle-up"></div></a></div>

@@ -4,12 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\About;
+use App\Bilde;
 
 class PagesController extends Controller
 {
 
     public function showIndex(){
-      return view('index');
+      $images = Bilde::inRandomOrder()->get()->reverse()->take('15');
+      return view('index')->withImages($images);
     }
 
     public function showAbout(){
