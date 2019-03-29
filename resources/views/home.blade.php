@@ -15,7 +15,7 @@
             </div>
           @endif
           <div class="title">
-            Dashboard
+            Dashbord
           </div>
           <hr>
           <div class="card">
@@ -36,7 +36,7 @@
 
           <div class="card mb-3">
             <div class="card-header">
-              Bilde
+              Last opp bilde
             </div>
             <div class="card-body">
               <form class="form" method="POST" action="/upload/image" enctype="multipart/form-data">
