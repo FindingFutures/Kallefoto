@@ -41,6 +41,7 @@
             <div class="card-body">
               <form class="form" method="POST" action="/upload/image" enctype="multipart/form-data">
                 @csrf
+                <p style="font-size: 12px; margin: 0;">Bilde må vere under 8MB</p>
                 <div class="row mb-3">
                   <div class="col">
                     <input type="hidden" name="_method" value="PUT">
