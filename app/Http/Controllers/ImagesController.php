@@ -3,8 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Image as EditImage;
-use App\Image;
+
+use Image;
+use Spatie\Image\Manipulations;
+use ImageOptimizer;
+use Tinify\Tinify;
+
+use App\Bilde;
 
 class ImagesController extends Controller
 {
@@ -25,25 +30,31 @@ class ImagesController extends Controller
         'subpage_id' => 'required|integer'
       ));
 
-      $subpageImage = new Image;
+      $subpageImage = new Bilde;
 
       $image = $request->file('image');
       $info = getimagesize($image);
       $extension = image_type_to_extension($info[2]);
       $filename = time() . $extension;
       $location = public_path('images/subpages/' . $filename);
-      EditImage::make($image)->save($location);
+      Image::make($image)->save($location);
+
+      Bilde::compressImage($location);
 
       $subpageImage->big_image = $filename;
       $subpageImage->subpage_id = $request->subpage_id;
 
       $dimensions = list($width, $height) = getimagesize($image);
-      $width = ceil($dimensions[0]);
-      $height = ceil($dimensions[1]);
+      $width = ceil($dimensions[0] / 2);
+      $height = ceil($dimensions[1] / 2);
 
       $location = public_path('images/subpages/' . 'small_' . $filename);
-      $image = EditImage::load('images/subpages/' . $filename)->getWidth();
-      $image = EditImage::make('images/subpages/' . $filename)->sepia(10)->save($location);
+      $image = Image::make('images/subpages/' . $filename);
+
+      $image->fit($width, $height);
+      $image->save($location);
+
+      Bilde::compressImage($location);
 
       $subpageImage->small_image = 'small_' . $filename;
       $subpageImage->save();

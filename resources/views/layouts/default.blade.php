@@ -21,11 +21,9 @@
         <span>Stadar<i class="arrow right"></i></span>
         <div class="dropdown_content">
           <ul>
-            <li style="list-style-type: none;"><a class="understrek" href="/sogndal">Sogndal</a></li>
-            <li style="list-style-type: none;"><a class="understrek" href="/luster">Luster</a></li>
-            <li style="list-style-type: none;"><a class="understrek" href="/leikanger">Leikanger</a></li>
-            <li style="list-style-type: none;"><a class="understrek" href="/balestrand">Balestrand</a></li>
-            <li style="list-style-type: none;"><a class="understrek" href="/bilar">Bilar & Dyr</a></li>
+            @foreach ($subpages as $subpage)
+              <li style="list-style-type: none;"><a class="understrek" href="/{{ strtolower($subpage->title) }}">{{ $subpage->title }}</a></li>
+            @endforeach
           </ul>
         </div>
       </div>
