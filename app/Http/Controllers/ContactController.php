@@ -15,13 +15,15 @@ class ContactController extends Controller
       $this->validate($request, array(
         'name' => 'required',
         'email' => 'required|email',
-        'body' => 'required|max:10000'
+        'body' => 'required|max:10000',
+        'phone' => 'required'
       ));
 
       $contact = new Contact;
 
       $contact->name = $request->name;
       $contact->email = $request->email;
+      $contact->phone = $request->phone;
       $contact->body = $request->body;
 
       $contact->save();
