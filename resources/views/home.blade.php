@@ -24,23 +24,11 @@
             </div>
             <div class="card-body">
               <div class="row justify-content-center">
-                <a href="/admin/about/{title}" class="mr-3 btn btn-md btn-primary">
-                  Sogndal
-                </a>
-                <a href="/admin/about/{title}" class="mr-3 btn btn-md btn-primary">
-                  Luster
-                </a>
-                <a href="/admin/about/{title}" class="btn btn-md btn-primary">
-                  Leikanger
-                </a>
-              </div>
-              <div class="row justify-content-center mt-3">
-                <a href="/admin/about/{title}" class="mr-3 btn btn-md btn-primary">
-                  Balestrand
-                </a>
-                <a href="/admin/about/{title}" class="btn btn-md btn-primary">
-                  Bilar og Dyr
-                </a>
+                @foreach ($subpages as $subpage)
+                  <a href="/admin/about/{{ $subpage->title }}" class="mr-3 btn btn-md btn-primary">
+                    {{ $subpage->title }}
+                  </a>
+                @endforeach
               </div>
             </div>
           </div>
@@ -71,6 +59,8 @@
               </form>
             </div>
           </div>
+
+          <hr>
 
           <div class="card">
             <div class="card-header">
