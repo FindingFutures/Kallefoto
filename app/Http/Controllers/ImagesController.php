@@ -8,6 +8,7 @@ use Image;
 use Spatie\Image\Manipulations;
 use ImageOptimizer;
 use Tinify\Tinify;
+use Config;
 
 use App\Bilde;
 
@@ -39,7 +40,9 @@ class ImagesController extends Controller
       $location = public_path('images/subpages/' . $filename);
       Image::make($image)->save($location);
 
-      Bilde::compressImage($location);
+      TiniFy::setkey(config('global.tinypng_key'));
+      $compressedImage = \Tinify\fromFile($image);
+      $compressedImage->toFile($image);
 
       $subpageImage->big_image = $filename;
       $subpageImage->subpage_id = $request->subpage_id;
