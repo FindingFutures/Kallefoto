@@ -19,7 +19,12 @@
 
     <header id="opp">
   @endif
+
+  @if (Request::is('index') || Request::is('/'))
     <nav>
+  @else
+    <nav class="nav_background">
+    @endif
     <a href="/" class="understrek">Heim</a>
       <div class="dropdown">
         <span>Stadar<i class="arrow right"></i></span>
