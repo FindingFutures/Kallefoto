@@ -26,9 +26,9 @@
       <div class="dropdown">
         <span>Stadar<i class="arrow right"></i></span>
         <div class="dropdown_content">
-          <ul class="svart_understrek">
+          <ul>
             @foreach ($subpages as $subpage)
-              <li style="list-style-type: none;"><a class="understrek" href="/{{ strtolower($subpage->title) }}">{{ $subpage->title }}</a></li>
+              <li style="list-style-type: none;"><a class="svart_understrek" href="/{{ strtolower($subpage->title) }}">{{ $subpage->title }}</a></li>
             @endforeach
           </ul>
         </div>
