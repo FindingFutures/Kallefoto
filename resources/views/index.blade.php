@@ -14,6 +14,22 @@
 
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+  <div class="info">
+  		<div class="breidd">
+  			<div class="title">roan</div>
+  			<div class="tekst">Lorem ipsum dolor sit amet</div>
+  		</div>
+
+  		<div class="breidd">
+  			<div class="title">viar</div>
+  			<div class="tekst">Lorem ipsum dolor</div>
+  		</div>
+
+  		<div class="breidd" style="border-right: none;">
+  			<div class="title">rolf</div>
+  			<div class="tekst">Lorem ipsum dolor</div>
+  		</div>
+  	</div>
 
 <div class="bilder_galleri">
   <div class="">

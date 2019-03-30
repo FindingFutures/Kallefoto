@@ -254,6 +254,27 @@ p {
   line-height: 1.4em;
 }
 
+.info {
+	display: inline-block;
+	width: 40vw;
+	background-color: #f83;
+}
+
+.breidd {
+	width: 10vw;
+	padding: 1em;
+	border-right: 2px #23232350 solid;
+	display: inline-table;
+}
+
+.title {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.tekst {
+	font-size: 1.1em;
+}
 
 img {
   width: 100%;
