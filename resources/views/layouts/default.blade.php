@@ -24,7 +24,7 @@
     <nav class="nav_background">
     <a href="/" class="understrek">Heim</a>
       <div class="dropdown">
-        <span>Stadar<i class="arrow right"></i></span>
+        <span style="color: #232323">Stadar<i class="arrow right"></i></span>
         <div class="dropdown_content">
           <ul>
             @foreach ($subpages as $subpage)
