@@ -25,7 +25,7 @@
   		<div class="breidd">
         <i class="fas fa-birthday-cake ikon"></i>
   			<div class="title">Store dagar</div>
-  			<div class="tekst">Lorem ipsum dolor Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</div>
+  			<div class="tekst"></div>
   		</div>
 
   		<div class="breidd" style="border-right: none;">
