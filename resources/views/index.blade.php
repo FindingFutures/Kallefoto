@@ -21,17 +21,17 @@
 
   		<div class="breidd">
   			<div class="title">roan</div>
-  			<div class="tekst">Lorem ipsum dolor sit amet</div>
+  			<div class="tekst">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</div>
   		</div>
 
   		<div class="breidd">
   			<div class="title">viar</div>
-  			<div class="tekst">Lorem ipsum dolor</div>
+  			<div class="tekst">Lorem ipsum dolor Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</div>
   		</div>
 
   		<div class="breidd" style="border-right: none;">
   			<div class="title">rolf</div>
-  			<div class="tekst">Lorem ipsum dolor</div>
+  			<div class="tekst">Lorem ipsum dolor Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</div>
   		</div>
     </div>
   	</div>
