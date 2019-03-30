@@ -19,19 +19,19 @@
     <div class="info_grid">
 
   		<div class="breidd">
-        <i class="fas fa-image"></i>
+        <i class="fas fa-image ikon"></i>
   			<div class="title">roan</div>
   			<div class="tekst">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</div>
   		</div>
 
   		<div class="breidd">
-        <i class="fas fa-image"></i>
+        <i class="fas fa-image ikon"></i>
   			<div class="title">viar</div>
   			<div class="tekst">Lorem ipsum dolor Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</div>
   		</div>
 
   		<div class="breidd" style="border-right: none;">
-        <i class="fas fa-image"></i>
+        <i class="fas fa-image ikon"></i>
   			<div class="title">rolf</div>
   			<div class="tekst">Lorem ipsum dolor Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</div>
   		</div>
