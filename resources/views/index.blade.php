@@ -30,8 +30,8 @@
 
   		<div class="breidd" style="border-right: none;">
         <i class="fas fa-image ikon"></i>
-  			<div class="title">rolf</div>
-  			<div class="tekst">Lorem ipsum dolor Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</div>
+  			<div class="title">Hendingar</div>
+  			<div class="tekst">Fotografering av arbeidsprosessar, t.d. nye Loftesnesbrua. Kan og tilby foto til brosjyrar, kalendarar og blad.</div>
   		</div>
     </div>
   	</div>
