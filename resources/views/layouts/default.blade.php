@@ -11,13 +11,13 @@
   </head>
 
 
-  <body>
+  <body id="opp">
 
     @if (Request::is('index') || Request::is('/'))
       <header id="opp" style="height: 85vh; ">
     @else
 
-    <header id="opp">
+    <header>
   @endif
 
 
