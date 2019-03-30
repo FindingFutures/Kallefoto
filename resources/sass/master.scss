@@ -247,12 +247,13 @@ p {
 
 img {
   width: 100%;
+  display: inline-block;
 }
 
  .bilder_galleri {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-
+  grid-gap: 1rem;
 }
 
 
