@@ -39,17 +39,17 @@ nav ul {
 nav a {
   margin: 1.5rem;
   text-decoration: none;
-  color: #FFF;
-  text-shadow: 1.5px 1.5px #23232350;
+  color: #232323;
 }
 
 .nav_background {
   background-color: #232323;
   width: 100%;
+  box-shadow: 0 2px 4px #00000020;
   text-align: left;
   position: fixed;
   margin-top: 0;
-  opacity: .9;
+  color: #232323;
 }
 
 header {
