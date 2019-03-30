@@ -227,6 +227,7 @@ i {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-bottom: 3rem;
 }
 
  h2 {
@@ -256,7 +257,6 @@ p {
   margin-right: 2em;
   grid-row: 1;
   margin-left: 2em;
-  margin-bottom: 3rem;
 }
 .info_grid {
   display: grid;
