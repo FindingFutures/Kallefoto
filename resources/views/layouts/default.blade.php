@@ -14,7 +14,7 @@
   <body id="opp">
 
     @if (Request::is('index') || Request::is('/'))
-      <header id="opp">
+      <header id="opp" style="height: 60vh; ">
     @else
 
     <header>
