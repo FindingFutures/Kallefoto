@@ -19,7 +19,7 @@
   		<div class="breidd">
         <i class="fas fa-image ikon"></i>
   			<div class="title">Fotografi</div>
-  			<div class="tekst">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</div>
+  			<div class="tekst">Bilete kan tingast på lerret, fotopapir, glas eller stålplater. Alt etter dine ynskjer.</div>
   		</div>
 
   		<div class="breidd">
