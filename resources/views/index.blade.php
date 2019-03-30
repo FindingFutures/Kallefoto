@@ -6,9 +6,7 @@
 
 @section('body')
 
-<div class="background">
-
-</div>
+<div class="background"></div>
 
 <main id="ned">
 
