@@ -51,9 +51,13 @@ nav a {
 
 .background {
   height: 85vh;
-  width: 100%;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: -1968;
   background-image: url('/assets/bilder/loftesnesbrui.jpg');
   background-size: cover;
+  position: absolute;
   background-repeat: no-repeat;
   clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
   background-attachment: fixed;
