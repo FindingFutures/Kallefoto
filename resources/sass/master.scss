@@ -234,11 +234,10 @@ i {
  h2 {
   grid-column: 1;
   grid-row: 1;
-  margin-left: 2em;
-  margin-top: 2em;
   font-weight: 250;
   font-size: 3em;
-  display: block;
+  border-bottom: 2px solid #232323;
+  display: inline-block;
 }
 
 
@@ -277,7 +276,6 @@ p {
 .title {
 	text-align: center;
 	font-size: 1.5em;
-  border-bottom: 2px solid #232323;
 }
 
 .tekst {
