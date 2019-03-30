@@ -6,6 +6,10 @@
 
 @section('body')
 
+<div class="background">
+
+</div>
+
 <main id="ned">
 
   <h2>Galleri</h2>
