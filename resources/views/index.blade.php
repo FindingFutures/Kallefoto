@@ -11,7 +11,7 @@
 <main id="ned">
 
 <div class="grid">
-  
+
   <div class="info">
     <h3>Kva eg tilbyr:</h3>
     <div class="info_grid">
@@ -24,7 +24,7 @@
 
   		<div class="breidd">
         <i class="fas fa-image ikon"></i>
-  			<div class="title">viar</div>
+  			<div class="title">Store dagar</div>
   			<div class="tekst">Lorem ipsum dolor Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</div>
   		</div>
 
