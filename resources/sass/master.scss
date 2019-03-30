@@ -48,9 +48,7 @@ nav a {
   color: #FFF;
   text-shadow: 1.5px 1.5px #23232350;
 }
-header {
-  height: 85vh;
-}
+
 .background {
   height: 85vh;
   width: 100vw;
@@ -294,9 +292,6 @@ footer {
 
 
 @media (max-width: 1366px) {
-  header {
-    height: 85vh;
-  }
   h1 {
     font-size: 4em;
     margin-top: 1em;

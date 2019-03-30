@@ -13,8 +13,12 @@
 
   <body>
 
+    @if (Request::is('index') || Request::is('/'))
+      <header id="opp" style="height: 85vh; ">
+    @else
 
-  <header id="opp">
+    <header id="opp">
+  @endif
     <nav>
     <a href="/" class="understrek">Heim</a>
       <div class="dropdown">
