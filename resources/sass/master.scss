@@ -253,11 +253,15 @@ p {
 
 .info {
 	grid-column: 4/6;
+  margin-right: 2em;
   grid-row: 2;
 	width: 40vw;
 	background-color: #f83;
 }
-
+.info_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .breidd {
 	padding: 1em;
 	border-right: 2px #23232350 solid;
