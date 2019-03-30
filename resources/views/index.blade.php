@@ -13,7 +13,7 @@
 <div class="grid">
 
   <div class="info">
-    <h3>Kva eg tilbyr:</h3>
+    <h2>Kva eg tilbyr:</h2>
     <div class="info_grid">
 
   		<div class="breidd">
@@ -23,13 +23,13 @@
   		</div>
 
   		<div class="breidd">
-        <i class="fas fa-image ikon"></i>
+        <i class="fas fa-birthday-cake ikon"></i>
   			<div class="title">Store dagar</div>
   			<div class="tekst">Lorem ipsum dolor Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</div>
   		</div>
 
   		<div class="breidd" style="border-right: none;">
-        <i class="fas fa-image ikon"></i>
+        <i class="fas fa-users ikon"></i>
   			<div class="title">Hendingar</div>
   			<div class="tekst">Fotografering av arbeidsprosessar, t.d. nye Loftesnesbrua. Kan og tilby foto til brosjyrar, kalendarar og blad.</div>
   		</div>
