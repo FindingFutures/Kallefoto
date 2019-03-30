@@ -20,7 +20,7 @@
 
   		<div class="breidd">
         <i class="fas fa-image ikon"></i>
-  			<div class="title">roan</div>
+  			<div class="title">Foto</div>
   			<div class="tekst">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</div>
   		</div>
 
