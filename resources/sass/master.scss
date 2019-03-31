@@ -200,7 +200,7 @@ i {
   position: absolute;
   width: auto;
   background-color: #FFFFFF;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 4px #00000040;
   z-index: 1;
   overflow: hidden;
   text-align: left;
@@ -212,7 +212,6 @@ i {
   transition: 250ms;
   margin-left: -1.6em;
   color: #232323;
-  text-shadow: 1.5px 1.5px #23232350;
 }
 
 .dropdown_content li {
