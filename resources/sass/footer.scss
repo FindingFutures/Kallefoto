@@ -34,6 +34,26 @@ footer {
     width: calc(100% - 1rem);
   }
 
+  & input {
+    width: 100%;
+    border: #4400ff;
+    border-radius: 5px;
+    width: 100%;
+    padding: .5rem;
+    margin-bottom: .4rem
+  }
+
+  & textarea {
+    width: 100%;
+    border: #4400ff;
+    border-radius: 5px;
+    width: 100%;
+    padding: .5rem;
+    margin-bottom: .4rem;
+    resize: vertical;
+    height: 150px;
+  }
+
   & hr {
     width: calc(100% + 8em);
     margin: 2em 0 2em -4em;
