@@ -221,12 +221,13 @@ i {
    transform: scaleY(1);
    transition: transform 300ms ease;
 }
-
+main {
+  padding-top: 3rem;
+}
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   margin-bottom: 5rem;
-  padding-top: 4rem;
 }
 
  h2 {
