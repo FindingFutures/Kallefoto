@@ -31,7 +31,7 @@
   		<div class="breidd" style="border-right: none;">
         <i class="fas fa-users ikon"></i>
   			<div class="title">Hendingar</div>
-  			<div class="tekst">Fotografering av arbeidsprosessar, t.d. nye Loftesnesbrua. Kan og tilby foto til brosjyrar, kalendarar og blad.</div>
+  			<div class="tekst">Treng du bilete til til brosjyrar, kalendarar og blad? Ta kontakt for ein hyggeleg prat.</div>
   		</div>
     </div>
   	</div>
