@@ -62,7 +62,9 @@ crossorigin="anonymous"></script>
     Copyright Kallefoto {{ date('Y') }}</p>
   </div>
   <form class="contact_form" action="{{ Route('contact.create') }}" method="POST">
-    <p class="success">Melding sent!</p>
+    @if (Session::has('success'))
+      <p class="success">{{ Session('success') }}</p>
+    @endif
     <h4>Kontakt meg her:</h4>
     @csrf
     <input type="text" name="name" value="" placeholder="Navn" required>
