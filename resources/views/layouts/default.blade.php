@@ -57,9 +57,22 @@ crossorigin="anonymous"></script>
 @yield('body')
 
 <footer>
-  <p>Kontakt meg på: kallebilde@gmail.com, tlf: 97194135 eller <a href="/kontakt">her</a>.<br> Alle rettigheitar tilhøyrer Karl Johan Ølnes<br>
-  Copyright Kallefoto {{ date('Y') }}</p>
+  <div class="">
+    <p>Kontakt meg på: kallebilde@gmail.com, tlf: 97194135 eller <a href="/kontakt">her</a>.<br> Alle rettigheitar tilhøyrer Karl Johan Ølnes<br>
+    Copyright Kallefoto {{ date('Y') }}</p>
+  </div>
+  <form class="contact_form" action="{{ Route('contact.create') }}" method="POST">
+    <h4>Kontakt meg her:</h4>
+    @csrf
+    <input type="text" name="name" value="" placeholder="Navn" required>
+    <input type="text" name="email" value="" placeholder="E-Mail" required>
+    <input type="text" name="phone" value="" placeholder="Mobilnummer" required>
+    <textarea name="body" placeholder="Melding" required></textarea>
+    <button type="submit" name="submit">Send</button>
+  </form>
+
   <hr>
+  
   <p class="findingfutures">Designa og utvikla av <a href="https://findingfutures.eu/" target="_blank">Finding Futures</a>.</p>
 </footer>
 
