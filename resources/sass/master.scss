@@ -5,6 +5,8 @@
         url('../fonts/lato/lato-regular.woff') format('woff');
 }
 
+@import 'footer';
+
 html {
   height: 100%;
 }
@@ -297,33 +299,6 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: .5em;
-}
-
-
-footer {
-  background-color: #232323;
-  color: #FFF;
-  font-size: .9em;
-  padding: 2em 4em;
-
-  & p {
-    padding: 0;
-  }
-
-  & hr {
-    width: calc(100% + 8em);
-    margin: 2em 0 2em -4em;
-  }
-
-  & .findingfutures {
-    font-size: 12px;
-    text-align: center;
-
-    & a {
-      color: #a2d565;
-      text-decoration: none;
-    }
-  }
 }
 
 
