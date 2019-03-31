@@ -13,9 +13,9 @@
 <div class="grid">
 
   <div class="info">
-    <h2>Kva eg tilbyr:</h2>
-    <div class="info_grid">
 
+    <div class="info_grid">
+<h2>Kva eg tilbyr:</h2>
   		<div class="breidd">
         <i class="fas fa-image ikon"></i>
   			<div class="title">Fotografi</div>
