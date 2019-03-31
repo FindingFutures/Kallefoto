@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Contact;
 use Mail;
 use App\Mail\contactSubmission;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\URL;
 
 class ContactController extends Controller
 {
@@ -29,10 +31,9 @@ class ContactController extends Controller
       $contact->save();
 
       Mail::to('tobiasbarsnes@gmail.com')->send(new contactSubmission($contact));
-      //Mail::to($request->email)->send(new contactSubmission($contact));
 
       $success = 'Melding sent!';
-      return back()->withSuccess($success);
+      return Redirect::to(URL::previous() . "#footer")->withSuccess($success);
 
     }
 

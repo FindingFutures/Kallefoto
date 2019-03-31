@@ -56,7 +56,7 @@ crossorigin="anonymous"></script>
 
 @yield('body')
 
-<footer>
+<footer id="footer">
   <div class="">
     <p>Kontakt meg på: kallebilde@gmail.com, tlf: 97194135 eller <a href="/kontakt">her</a>.<br> Alle rettigheitar tilhøyrer Karl Johan Ølnes<br>
     Copyright Kallefoto {{ date('Y') }}</p>
