@@ -25,7 +25,7 @@
   		<div class="breidd">
         <i class="fas fa-birthday-cake ikon"></i>
   			<div class="title">Store dagar</div>
-  			<div class="tekst"></div>
+  			<div class="tekst">Fødselsdagar, konfirmasjonar og bryllup er dagar som må markerast, gjerne med eit fint bilde.</div>
   		</div>
 
   		<div class="breidd" style="border-right: none;">
