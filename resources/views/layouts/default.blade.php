@@ -62,6 +62,7 @@ crossorigin="anonymous"></script>
     Copyright Kallefoto {{ date('Y') }}</p>
   </div>
   <form class="contact_form" action="{{ Route('contact.create') }}" method="POST">
+    <p class="success">Melding sent!</p>
     <h4>Kontakt meg her:</h4>
     @csrf
     <input type="text" name="name" value="" placeholder="Navn" required>
@@ -72,7 +73,7 @@ crossorigin="anonymous"></script>
   </form>
 
   <hr>
-  
+
   <p class="findingfutures">Designa og utvikla av <a href="https://findingfutures.eu/" target="_blank">Finding Futures</a>.</p>
 </footer>
 
