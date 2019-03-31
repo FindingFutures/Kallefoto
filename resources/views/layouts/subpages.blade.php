@@ -5,7 +5,7 @@
   <p>{{ $subpage->body }}</p>
 
   <div class="bilder_galleri">
-    
+
     <div class="">
       @php
         $num = 0;
@@ -50,5 +50,5 @@
 
   </div>
 
-    <div class="pil_breidd"><a class="pil_a" href="#opp"><div class="fas fa-arrow-circle-up"></div></a></div>
+    <div class="pil_breidd"><a class="pil_a" href="#ned"><div class="fas fa-arrow-circle-up"></div></a></div>
   </main>
