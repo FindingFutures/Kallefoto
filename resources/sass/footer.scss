@@ -26,6 +26,14 @@ footer {
     width: calc(100% - 1rem);
   }
 
+  & .error {
+    background-color: #dd3344;
+    padding: .5rem;
+    border-radius: 5px;
+    margin: 0;
+    width: calc(100% - 1rem);
+  }
+
   & hr {
     width: calc(100% + 8em);
     margin: 2em 0 2em -4em;

@@ -65,6 +65,11 @@ crossorigin="anonymous"></script>
     @if (Session::has('success'))
       <p class="success">{{ Session('success') }}</p>
     @endif
+    @if (Session::has('error') or $errors->any())
+      @foreach ($errors->all() as $error)
+          <p class="error">{{ $error }}</p>
+      @endforeach
+    @endif
     <h4>Kontakt meg her:</h4>
     @csrf
     <input type="text" name="name" value="" placeholder="Navn" required>
