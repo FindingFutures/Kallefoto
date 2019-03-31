@@ -57,7 +57,7 @@ crossorigin="anonymous"></script>
 @yield('body')
 
 <footer>
-  <p>Kontakt meg på: kallebilde@gmail.com, tlf: 97194135 eller <a href="/kontakt">her</a>. Alle rettigheitar tilhøyrer Karl Johan Ølnes<br>
+  <p>Kontakt meg på: kallebilde@gmail.com, tlf: 97194135 eller <a href="/kontakt">her</a>.<br> Alle rettigheitar tilhøyrer Karl Johan Ølnes<br>
   Copyright Kallefoto {{ date('Y') }}</p>
   <hr>
   <p class="findingfutures">Designa og utvikla av <a href="https://findingfutures.eu/" target="_blank">Finding Futures</a>.</p>
