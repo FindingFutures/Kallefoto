@@ -134,7 +134,7 @@ h1 {
   transform: scale(0);
   content: '';
   height: 1px;
-  background-color: #FFF;
+  background-color: #232323;
   position: absolute;
   left: 0;
   bottom: -3px;
@@ -199,8 +199,8 @@ i {
   transition: transform 300ms ease;
   position: absolute;
   width: auto;
-  background-color: #FFFFFF80;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px #00000040;
   z-index: 1;
   overflow: hidden;
   text-align: left;
@@ -212,7 +212,6 @@ i {
   transition: 250ms;
   margin-left: -1.6em;
   color: #232323;
-  text-shadow: 1.5px 1.5px #23232350;
 }
 
 .dropdown_content li {
@@ -274,7 +273,7 @@ p {
 }
 .breidd {
 	padding: 1em;
-	border-right: 2px #23232350 solid;
+	border-right: 1px #23232350 solid;
   display: grid;
   margin-bottom: 2em;
   margin-top: 2em;
