@@ -43,7 +43,7 @@ crossorigin="anonymous"></script>
         </div>
       </div>
     <a href="/om" class="understrek">Om Kallefoto</a>
-    <a href="kontakt_meg" class="understrek kontakt_a">Kontakt meg</a>
+    <a href="#kontakt_meg" class="understrek kontakt_a">Kontakt meg</a>
     </nav>
 
     @if (Request::is('index') || Request::is('/'))
