@@ -25,7 +25,7 @@
             <div class="card-body">
               <div class="row justify-content-center">
                 @foreach ($subpages as $subpage)
-                  <a href="/admin/about/{{ $subpage->title }}" class="mr-3 btn btn-md btn-primary">
+                  <a href="/admin/{{ strtolower($subpage->title) }}" class="mr-3 btn btn-md btn-primary">
                     {{ $subpage->title }}
                   </a>
                 @endforeach

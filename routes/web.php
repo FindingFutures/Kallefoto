@@ -13,5 +13,8 @@ Route::get('/kontakt', 'PagesController@showContact')->name('contact');
 Route::post('/kontakt/send', 'ContactController@create')->name('contact.create');
 
 Route::get('/{title}', 'SubpagesController@showSubpage');
+Route::get('/admin/{title}', 'SubpagesController@editSubpage');
+Route::put('/admin/subpage/{id}', 'SubpagesController@updateSubpage')->name('subpage.edit');
+Route::put('/admin/subpage/image/{id}', 'ImagesController@destroy')->name('image.destroy');
 
 Route::put('/upload/image', 'ImagesController@store')->name('image.store');

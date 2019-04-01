@@ -19,11 +19,6 @@ class ImagesController extends Controller
 
     }
 
-    public function create()
-    {
-        //
-    }
-
     public function store(Request $request)
     {
       $this->validate($request, array(
@@ -61,5 +56,18 @@ class ImagesController extends Controller
       $subpageImage->save();
 
       return back()->withSuccess('Bilde lasta opp!');
+    }
+
+    public function destroy($id) {
+
+      $bilde = Bilde::where('id', '=', $id)->first();
+
+      unlink(public_path('images/subpages/'. $bilde->big_image));
+
+      unlink(public_path('images/subpages/'. $bilde->small_image));
+
+      $bilde->delete();
+
+      return back()->withSuccess('Bilde sletta!');
     }
 }
