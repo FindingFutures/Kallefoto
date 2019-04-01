@@ -15,7 +15,7 @@
   <div class="info">
 
     <div class="info_grid">
-      <h2>Kva eg tilbyr</h2>
+      <h2>Tenester</h2>
   		<div class="breidd">
         <i class="fas fa-image ikon"></i>
   			<div class="title">Fotografi</div>
@@ -31,7 +31,7 @@
   		<div class="breidd" style="border-right: none;">
         <i class="fas fa-users ikon"></i>
   			<div class="title">Hendingar</div>
-  			<div class="tekst">Treng du bilete til til brosjyrar, kalendarar og blad? Ta kontakt for ein hyggeleg prat.</div>
+  			<div class="tekst">Treng du bilete til brosjyrar, kalendarar og blad? Ta kontakt for ein hyggeleg prat.</div>
   		</div>
     </div>
   	</div>
