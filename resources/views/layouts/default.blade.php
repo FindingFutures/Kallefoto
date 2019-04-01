@@ -43,7 +43,7 @@ crossorigin="anonymous"></script>
         </div>
       </div>
     <a href="/om" class="understrek">Om Kallefoto</a>
-    <a href="/kontakt" class="understrek kontakt_a">Kontakt meg</a>
+    <a href="kontakt_meg" class="understrek kontakt_a">Kontakt meg</a>
     </nav>
 
     @if (Request::is('index') || Request::is('/'))
@@ -70,7 +70,7 @@ crossorigin="anonymous"></script>
           <p class="error">{{ $error }}</p>
       @endforeach
     @endif
-    <h4>Kontakt meg her:</h4>
+    <h4 id="kontakt_meg">Kontakt meg her:</h4>
     @csrf
     <input type="text" name="name" value="" placeholder="Navn" required>
     <input type="text" name="email" value="" placeholder="E-Mail" required>
