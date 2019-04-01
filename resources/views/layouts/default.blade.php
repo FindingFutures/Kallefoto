@@ -25,7 +25,7 @@ crossorigin="anonymous"></script>
 <body id="opp">
 
 @if (Request::is('index') || Request::is('/'))
-  <header id="opp" style="height: 60vh; ">
+  <header id="opp">
 @else
   <header>
 @endif
