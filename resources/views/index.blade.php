@@ -1256,7 +1256,7 @@
 </div>
 
 
-  <div class="pil_breidd"><a class="pil_a" href="#ned"><div class="fas fa-arrow-circle-up pil"></div></a></div>
+  <a href="#" onclick="goDown();"><div class="fas fa-arrow-circle-up pil"></div></a>
   </main>
 
   <script type="text/javascript">
