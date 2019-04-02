@@ -6,9 +6,7 @@
 
 @section('body')
 
-<div class="background">
 
-</div>
 
 <main class="homeMain">
 
@@ -1265,6 +1263,23 @@
         scrollTop: $("#ned").offset().top - 120
       }, 1200);
     }
+  </script>
+
+  <script type="text/javascript">
+  var width = $(window).width();
+
+  if(width > 1024){
+      $(window).scroll(function() {
+        parallax();
+      })
+  }
+
+  function parallax() {
+
+    var wScroll = $(window).scrollTop()
+    $('.topImage').css('background-position', 'center ' + '-' + (wScroll*0.5)+'px');
+  }
+
   </script>
 
 @endsection
