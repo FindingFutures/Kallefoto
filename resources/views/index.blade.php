@@ -19,19 +19,19 @@
   		<div class="breidd">
         <i class="fas fa-image ikon"></i>
   			<div class="title">Fotografi</div>
-  			<div class="tekst">Bilete kan tingast på lerret, fotopapir, glas eller stålplater. Alt etter dine ynskjer.</div>
+  			<div class="tekst">Bilete av ynskja motiv kan tingast på lerret, fotopapir, glas eller stålplater. Alt etter det du vil ha.</div>
   		</div>
 
   		<div class="breidd">
         <i class="fas fa-birthday-cake ikon"></i>
   			<div class="title">Store dagar</div>
-  			<div class="tekst">Fødselsdagar, konfirmasjonar og bryllup er dagar som må markerast, gjerne med eit fint bilde.</div>
+  			<div class="tekst">Fødselsdagar, konfirmasjonar og bryllup er dagar som må markerast og hugsast, gjerne med eit fint bilde.</div>
   		</div>
 
   		<div class="breidd" style="border-right: none;">
         <i class="fas fa-users ikon"></i>
   			<div class="title">Hendingar</div>
-  			<div class="tekst">Treng du bilete til brosjyrar, kalendarar og blad? Ta kontakt for ein hyggeleg prat.</div>
+  			<div class="tekst">Treng du bilete til firmaet ditt, brosjyrar, kalendarar eller blad? Ta kontakt for ein hyggeleg prat.</div>
   		</div>
     </div>
   	</div>
