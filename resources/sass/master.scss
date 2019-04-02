@@ -113,8 +113,22 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: .5em;
-  background-color: #FFF;
-  padding-top: .5rem;
+  background-color: #F1F1E6;
+  position: relative;
+
+  & .first-svg {
+    width: 102vw;
+    fill: #F1F1E6;
+    grid-column: 1 / 4;
+    transform: rotate(180deg);
+    margin-left: -4px;
+  }
+
+  & .last-svg {
+    width: 102vw;
+    fill: #F1F1E6;
+    grid-column: 1 / 4;
+  }
 
   & img {
     width: 100%;

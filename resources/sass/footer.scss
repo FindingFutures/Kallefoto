@@ -1,10 +1,17 @@
 footer {
-  background-color: #232323;
+  background-color: #785C4F;
   color: #FFF;
   font-size: .9em;
-  padding: 2em 4em;
+  padding: 15rem 4rem 2rem 4rem;
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 3fr 2fr;
+  position: relative;
+
+  & svg {
+    position: absolute;
+    top: 0;
+    width: 102vw;
+  }
 
   & p {
     padding: 0;
