@@ -626,8 +626,6 @@
   </g>
   </svg>
 
-
-
   <div class="">
     @php
       $num = 0;
