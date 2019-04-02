@@ -52,7 +52,7 @@ crossorigin="anonymous"></script>
 
     <div class="pil_breidd"><a class="pil_a" href="#ned"><div class="fas fa-arrow-circle-down pil"></div></a></div>
 
-    <img src="{{ asset('assets/svg/forest.svg') }}" />
+    <img src="{{ asset('assets/svg/Forest.svg') }}" />
 
   </header>
 
