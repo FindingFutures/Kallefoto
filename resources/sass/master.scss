@@ -33,7 +33,7 @@ main {
 }
 
 .homeMain {
-  padding-top: 80vh;
+  padding-top: 60rem;
 }
 
 .grid {
@@ -122,12 +122,16 @@ p {
     grid-column: 1 / 4;
     transform: rotate(180deg);
     margin-left: -4px;
+    margin-top: -4px;
+    margin-bottom: 4rem;
   }
 
   & .last-svg {
     width: 102vw;
     fill: #F1F1E6;
     grid-column: 1 / 4;
+    margin-bottom: -4px;
+    margin-top: 4rem;
   }
 
   & img {
