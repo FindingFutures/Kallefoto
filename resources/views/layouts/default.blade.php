@@ -342,7 +342,7 @@ crossorigin="anonymous"></script>
 
 
   <div class="">
-    <p>Kontakt meg på: kallebilde@gmail.com, tlf: 97194135 eller <a href="/kontakt">her</a>.<br> Alle rettigheitar tilhøyrer Karl Johan Ølnes<br>
+    <p>Kontakt meg på: kallebilde@gmail.com eller tlf: 97194135<br> Alle rettigheitar tilhøyrer Karl Johan Ølnes<br>
     Copyright Kallefoto {{ date('Y') }}</p>
   </div>
   <form class="contact_form" action="{{ Route('contact.create') }}" method="POST">
@@ -354,7 +354,7 @@ crossorigin="anonymous"></script>
           <p class="error">{{ $error }}</p>
       @endforeach
     @endif
-    <h4 id="kontakt_meg">Kontakt meg her:</h4>
+    <h3 id="kontakt_meg">Kontakt meg her:</h3>
     @csrf
     <input type="text" name="name" value="" placeholder="Navn" required>
     <input type="text" name="email" value="" placeholder="E-Mail" required>
