@@ -28,35 +28,15 @@ nav {
   z-index: 10000;
 }
 
-.background {
-  height: 85vh;
-  width: 100vw;
-  top: 0;
-  left: 0;
-  z-index: -1968;
-  background-image: url('/assets/bilder/aalesund3.jpg');
-  background-size: cover;
-  position: absolute;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-}
-
-.pil_breidd {
-  width: 100%;
-  text-align: center;
-  position: relative;
-  z-index: 1000;
-}
-
 .pil {
   font-size: 5em;
   color: #FFF;
   margin-top: 1em;
-}
-
-.pil_under {
-  margin-top: 5em;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 1000;
+  text-shadow: 0 0 7px #00000070;
 }
 
 .fa-arrow-circle-up {
@@ -165,6 +145,17 @@ i {
   }
 }
 
+.topImage {
+  background-image: url('/assets/bilder/aalesund3.jpg');
+  background-size: cover;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100vw;
+  height: 85vh;
+}
+
 header {
   margin-bottom: -4rem;
   height: 60vh;
@@ -174,7 +165,7 @@ header {
     width: 102vw;
     position: absolute;
     z-index: 10;
-    bottom: 0;
+    bottom: -5px;
     left: -10px;
   }
 

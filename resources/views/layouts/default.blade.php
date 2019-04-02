@@ -25,7 +25,7 @@ crossorigin="anonymous"></script>
 <body id="opp">
 
 @if (Request::is('index') || Request::is('/'))
-  <header id="opp">
+  <header id="opp" class="topImage">
 @else
   <header>
 @endif
@@ -50,7 +50,11 @@ crossorigin="anonymous"></script>
       <h1>Kallefoto</h1>
     @endif
 
-    <div class="pil_breidd"><a class="pil_a" href="#ned"><div class="fas fa-arrow-circle-down pil"></div></a></div>
+    @if (Request::is('index') || Request::is('/'))
+      <a href="#" onclick="goDown();"><div class="fas fa-arrow-circle-down pil"></div></a>
+    @else
+      <div class="pil_breidd"><a class="pil_a" href="#ned"><div class="fas fa-arrow-circle-down pil"></div></a></div>
+    @endif
 
     <img src="{{ asset('assets/svg/Forest.svg') }}" />
 

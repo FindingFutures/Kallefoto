@@ -6,11 +6,13 @@
 
 @section('body')
 
-<div class="background"></div>
+<div class="background">
 
-<main id="ned">
+</div>
 
-<div class="grid">
+<main>
+
+<div class="grid" id="ned">
 
   <div class="info">
 
@@ -83,5 +85,13 @@
 
   <div class="pil_breidd"><a class="pil_a" href="#ned"><div class="fas fa-arrow-circle-up pil"></div></a></div>
   </main>
+  
+  <script type="text/javascript">
+    function goDown() {
+      $('html, body').animate({
+        scrollTop: $("#ned").offset().top - 120
+      }, 1200);
+    }
+  </script>
 
 @endsection
