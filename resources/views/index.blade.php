@@ -10,7 +10,7 @@
 
 </div>
 
-<main>
+<main class="homeMain">
 
 <div class="grid" id="ned">
 
@@ -85,7 +85,7 @@
 
   <div class="pil_breidd"><a class="pil_a" href="#ned"><div class="fas fa-arrow-circle-up pil"></div></a></div>
   </main>
-  
+
   <script type="text/javascript">
     function goDown() {
       $('html, body').animate({
