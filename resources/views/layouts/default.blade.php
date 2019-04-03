@@ -38,7 +38,7 @@ crossorigin="anonymous"></script>
         <div class="dropdown_content">
           <ul>
             @foreach ($subpages as $subpage)
-              <li style="list-style-type: none;"><a class="understrek" href="/{{ strtolower($subpage->title) }}">{{ $subpage->title }}</a></li>
+              <li class="understrek" style="list-style-type: none;"><a href="/{{ strtolower($subpage->title) }}">{{ $subpage->title }}</a></li>
             @endforeach
           </ul>
         </div>
