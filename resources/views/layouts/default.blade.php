@@ -26,7 +26,7 @@ crossorigin="anonymous"></script>
 <body id="opp">
 
 @if (Request::is('index') || Request::is('/'))
-  <header id="opp" class="topImage">
+  <header id="opp" class="topImage" style="background-position: center 0px;">
 @else
   <header>
 @endif
