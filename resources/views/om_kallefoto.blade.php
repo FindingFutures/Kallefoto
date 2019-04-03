@@ -14,9 +14,7 @@
 
   <div class="bilde_kalle">
     <div>
-    <img src="https://unsplash.it/1920/1080?random">
-    <img src="https://unsplash.it/1920/1081?random">
-    <img src="https://unsplash.it/1920/1082?random"></div>
+    <img src="https://unsplash.it/1920/1080?random"></div>
   </div>
 
 
