@@ -1,5 +1,5 @@
 <head>
-  <link rel="stylesheet" type="text/css" href="kallefoto_real\Kallefoto\resources\sass\kontakt.scss">
+  <link rel="stylesheet" type="text/css" href="/css/master.css">
 </head>
 
 @extends('layouts.default')
