@@ -1,6 +1,6 @@
-<head>
+
   <link rel="stylesheet" href="/css/kontakt.scss">
-</head>
+
 
 @extends('layouts.default')
 
