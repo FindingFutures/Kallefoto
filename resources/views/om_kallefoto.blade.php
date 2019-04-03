@@ -1,3 +1,7 @@
+<head>
+  <link rel="stylesheet" href="/css/kontakt.scss">
+</head>
+
 @extends('layouts.default')
 
 @section('title')
@@ -6,7 +10,7 @@
 
 <main id="ned">
 
-  <h2>Om Kallefoto</h2>
+  <h2>Karl Johan Ølnes</h2>
 
   <p>{{ $about->body }}</p>
 
