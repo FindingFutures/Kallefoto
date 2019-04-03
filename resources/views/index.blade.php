@@ -19,7 +19,7 @@
   		<div class="breidd">
         <i class="fas fa-image ikon"></i>
   			<div class="title">Fotografi</div>
-  			<div class="tekst">Bilete av ynskja motiv kan tingast på lerret, fotopapir, glas eller stålplater. Alt etter det du vil ha.</div>
+  			<div class="tekst">Bilete av ynskja motiv kan tingast på lerret, fotopapir, glas eller stålplater. Alt etter det du likar best.</div>
   		</div>
 
   		<div class="breidd">
