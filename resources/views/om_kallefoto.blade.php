@@ -1,5 +1,5 @@
 <head>
-  <link rel="stylesheet" href="../sass/kontakt.scss">
+  <link rel="stylesheet" href="/sass/kontakt.scss">
 </head>
 
 @extends('layouts.default')
