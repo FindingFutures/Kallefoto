@@ -1254,7 +1254,7 @@
 </div>
 
 
-  <a href="#" onclick="goDown();"><div class="fas fa-arrow-circle-up pil"></div></a>
+  <a href="#" onclick="goDown();"><div class="fas fa-arrow-circle-up pil" style="color: #F1F1E6;"></div></a>
   </main>
 
   <script type="text/javascript">
