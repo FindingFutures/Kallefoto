@@ -2,7 +2,7 @@
 
 use Spatie\Sitemap\SitemapGenerator;
 
-SitemapGenerator::create('https://kallefoto.no')->writeToFile('public/sitemap.xml');
+SitemapGenerator::create('https://kallefoto.no')->writeToFile(public_path('sitemap.xml'));
 
 Auth::routes();
 
