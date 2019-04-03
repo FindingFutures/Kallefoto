@@ -1,5 +1,5 @@
 <head>
-  <link rel="stylesheet" href="{{ mix('/css/kontakt.css')}}">
+  <link rel="stylesheet" href="kontakt.scss">
 </head>
 
 @extends('layouts.default')
