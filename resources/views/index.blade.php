@@ -6,20 +6,20 @@ Heim
 
 @section('seo')
   <!-- Google / Search Engine Tags -->
-  <meta itemprop="name" content="{{ Config::get('app.name')}} @yield('title')">
+  <meta itemprop="name" content="{{ Config::get('app.name')}}">
   <meta itemprop="description" content="{{ Config::get('app.description') }}">
   <meta itemprop="image" content="{{ asset('assets/bilder/loftesnesbrui.jpg') }}">
 
   <!-- Facebook Meta Tags -->
   <meta property="og:url" content="https://kallefoto.no">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="{{ Config::get('app.name')}} @yield('title')">
+  <meta property="og:title" content="{{ Config::get('app.name')}}">
   <meta property="og:description" content="{{ Config::get('app.description') }}">
   <meta property="og:image" content="{{ asset('assets/bilder/loftesnesbrui.jpg') }}">
 
   <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ Config::get('app.name')}} @yield('title')">
+  <meta name="twitter:title" content="{{ Config::get('app.name')}}">
   <meta name="twitter:description" content="{{ Config::get('app.description') }}">
   <meta name="twitter:image" content="{{ asset('assets/bilder/loftesnesbrui.jpg') }}">
 
