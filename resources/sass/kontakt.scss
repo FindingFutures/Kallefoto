@@ -1,5 +1,7 @@
 .grid_om {
+  display: grid;
   grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto auto;
 }
 
 h1 {
