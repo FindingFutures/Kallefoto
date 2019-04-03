@@ -11,11 +11,9 @@
 <main id="ned">
 
 <div class="grid_om">
-
   <h1>Karl Johan Ølnes</h1>
   <p>{{ $about->body }}</p>
-  <div class="kalle_bilde"><img src="https://unsplash.it/1920/1080?random"></div>
-
+  <img src="https://unsplash.it/1920/1080?random">
 </div>
 
 
