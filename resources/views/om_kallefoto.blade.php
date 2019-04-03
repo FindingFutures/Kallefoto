@@ -1,5 +1,5 @@
 <head>
-  <link rel="stylesheet" type="text/css" href="/css/master.css">
+  <link rel="stylesheet" type="text/css" href="/css/master.scss">
 </head>
 
 @extends('layouts.default')
