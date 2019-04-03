@@ -14,7 +14,7 @@
 
   <h1>Karl Johan Ølnes</h1>
   <p>{{ $about->body }}</p>
-  <img src="https://unsplash.it/1920/1080?random">
+  <div class="kalle_bilde"><img src="https://unsplash.it/1920/1080?random"></div>
 </div>
 
 
