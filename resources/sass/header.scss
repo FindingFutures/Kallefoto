@@ -62,6 +62,29 @@ nav {
    }
 }
 
+.understrek_dropdown {
+  position: relative;
+  text-decoration: none;
+
+  &:after {
+    width: 80%;
+    transform: scale(0);
+    content: '';
+    height: 1px;
+    background-color: #232323;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    transition: transform 300ms ease;
+  }
+
+  &:hover:after {
+     transform: scale(1);
+     transition: transform 300ms ease;
+     transform-origin: center;
+   }
+}
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -70,7 +93,7 @@ nav {
   &:hover .dropdown_content {
      transform: scaleY(1);
      transition: transform 300ms ease;
-     
+
      & a {
        opacity: 1;
      }
