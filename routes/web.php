@@ -1,5 +1,9 @@
 <?php
 
+use Spatie\Sitemap\SitemapGenerator;
+
+SitemapGenerator::create('https://kallefoto.no')->writeToFile('public/sitemap.xml');
+
 Auth::routes();
 
 
