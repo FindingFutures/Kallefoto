@@ -11,6 +11,8 @@
 integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 crossorigin="anonymous"></script>
 
+  @yield('seo')
+
   <!-- SEO & Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110310303-8"></script>
   <script>

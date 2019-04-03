@@ -3,6 +3,8 @@
 return [
     'name' => env('APP_NAME', 'Kallefoto'),
 
+    'description' => env('APP_DESCRIPTION', 'Kallefoto er ein fotograf frå Sogndal, som tek alt frå natur- til bryllaupsbilder. Trykk deg inn for å sjå flotte bilder!'),
+
     'env' => env('APP_ENV', 'production'),
 
     'debug' => env('APP_DEBUG', false),
