@@ -1,5 +1,5 @@
 <head>
-  <link rel="stylesheet" href="/css/kontakt.css">
+  <link rel="stylesheet" href="../css/kontakt.css">
 </head>
 
 @extends('layouts.default')
