@@ -2,7 +2,7 @@
   <link rel="stylesheet" href="/css/kontakt.scss">
 </head>
 
-
+@extends('layouts.default')
 
 @section('title')
   - Om
