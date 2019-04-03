@@ -4,8 +4,6 @@
   - Om
 @endsection
 
-@section('body')
-
 <main id="ned">
 
   <h2>Om Kallefoto</h2>
