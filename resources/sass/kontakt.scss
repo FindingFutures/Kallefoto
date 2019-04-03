@@ -1,6 +1,5 @@
 .grid_om {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
 }
 
 h1 {
@@ -18,5 +17,5 @@ p {
   grid-column: 2;
 }
 img {
-  width: 100%;
+  width: 10vw;
 }
