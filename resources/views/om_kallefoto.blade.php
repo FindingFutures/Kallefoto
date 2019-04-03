@@ -1,6 +1,6 @@
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="../css/master.scss">
+  <link rel="stylesheet" type="text/css" href="../css/kontakt.scss">
 </head>
 
 @extends('layouts.default')
