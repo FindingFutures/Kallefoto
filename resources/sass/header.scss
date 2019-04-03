@@ -67,13 +67,13 @@ nav {
   text-decoration: none;
 
   &:after {
-    width: 70%;
+    width: 60%;
     transform: scale(0);
     content: '';
     height: 1px;
     background-color: #232323;
     position: absolute;
-    left: 15%;
+    left: 20%;
     bottom: -3px;
     transition: transform 300ms ease;
   }
@@ -82,7 +82,7 @@ nav {
      transform: scale(1);
      transition: transform 300ms ease;
      transform-origin: center;
-     width: 70%;
+     width: 60%;
    }
 }
 
