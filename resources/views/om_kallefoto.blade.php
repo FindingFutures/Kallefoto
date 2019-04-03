@@ -10,7 +10,7 @@
 
 <main id="ned">
 
-<div class="grid_om">
+<div class="grid_om" style="display: grid;">
   <h1>Karl Johan Ølnes</h1>
   <p>{{ $about->body }}</p>
   <img src="https://unsplash.it/1920/1080?random">
