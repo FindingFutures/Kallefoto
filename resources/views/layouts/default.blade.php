@@ -89,12 +89,10 @@ window.cookieconsent.initialise({
       <h1>Kallefoto</h1>
     @endif
 
-    @if (Request::is('index') || Request::is('/') || Request::is('om_kallefoto'))
+    @if (Request::is('index') || Request::is('/'))
       <a href="#" onclick="goDown();" aria-label="scrollDown"><div class="fas fa-arrow-circle-down pil"></div></a>
     @else
       <div class="pil_breidd"><a class="pil_a" href="#ned"><div class="fas fa-arrow-circle-down pil"></div></a></div>
-    @else
-    <div class="pil_breidd" style="display: none;"><a class="pil_a" href="#ned"><div class="fas fa-arrow-circle-down pil"></div></a></div>
     @endif
 
 
