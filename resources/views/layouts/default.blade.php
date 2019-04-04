@@ -69,7 +69,7 @@ crossorigin="anonymous"></script>
     @endif
 
     @if (Request::is('index') || Request::is('/'))
-      <a href="#" onclick="goDown();" name="scrollDown"><div class="fas fa-arrow-circle-down pil"></div></a>
+      <a href="#" onclick="goDown();" aria-label="scrollDown"><div class="fas fa-arrow-circle-down pil"></div></a>
     @else
       <div class="pil_breidd"><a class="pil_a" href="#ned"><div class="fas fa-arrow-circle-down pil"></div></a></div>
     @endif
