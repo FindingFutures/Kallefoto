@@ -654,7 +654,7 @@ Heim
         $num ++;
       @endphp
       @if ($num % 2 != 0 && $num % 3 != 0)
-        <img src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="Bilde teke av Kallefoto.">
+        <img class="lazyImage" src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="Bilde teke av Kallefoto.">
       @endif
     @endforeach
   </div>
@@ -668,7 +668,7 @@ Heim
         $num ++;
       @endphp
       @if ($num % 2 == 0 && $num % 3 !== 0)
-        <img src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="Bilde fteke av Kallefoto.">
+        <img class="lazyImage" src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="Bilde fteke av Kallefoto.">
       @endif
     @endforeach
   </div>
@@ -682,7 +682,7 @@ Heim
         $num ++;
       @endphp
       @if ($num % 3 == 0)
-        <img src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="Bilde teke av Kallefoto.">
+        <img class="lazyImage" src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="Bilde teke av Kallefoto.">
       @endif
     @endforeach
   </div>

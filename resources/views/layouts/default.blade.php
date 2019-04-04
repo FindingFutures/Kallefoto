@@ -11,6 +11,8 @@
 integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 crossorigin="anonymous"></script>
 
+<script type="text/javascript" src="{{ asset('js/jquery.lazy.min.js') }}"></script>
+
   @yield('seo')
 
   <!-- SEO & Analytics -->
@@ -384,6 +386,17 @@ crossorigin="anonymous"></script>
      }
    });
  });
+</script>
+
+<script type="text/javascript">
+  $('.lazyImage').Lazy({
+    scrollDirection: 'vertical',
+    effect: 'fadeIn',
+    visibleOnly: true,
+    onError: function(element) {
+        console.log('error loading ' + element.data('src'));
+    }
+  });
 </script>
 
 </body>
