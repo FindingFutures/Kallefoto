@@ -373,14 +373,14 @@ crossorigin="anonymous"></script>
     @endif
     <h3 id="kontakt_meg">Kontakt meg her:</h3>
     @csrf
-    <label for="name">Navn</label>
-    <input type="text" name="name" value="" placeholder="Navn" required>
-    <label for="email">E-Mail</label>
-    <input type="text" name="email" value="" placeholder="E-Mail" required>
-    <label for="phone">Mobilnummer</label>
-    <input type="text" name="phone" value="" placeholder="Mobilnummer" required>
-    <label for="body">Melding</label>
-    <textarea name="body" placeholder="Melding" required></textarea>
+    <label for="name">Navn
+    <input type="text" name="name" value="" placeholder="Navn" required></label>
+    <label for="email">E-Mail
+    <input type="text" name="email" value="" placeholder="E-Mail" required></label>
+    <label for="phone">Mobilnummer
+    <input type="text" name="phone" value="" placeholder="Mobilnummer" required></label>
+    <label for="body">Melding
+    <textarea name="body" placeholder="Melding" required></textarea></label>
     <button type="submit" name="submit">Send</button>
   </form>
 
