@@ -145,7 +145,7 @@ p {
 .grid_om {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr auto auto;
+  grid-template-rows: 5em auto auto;
 }
 
 .om_title {
@@ -153,7 +153,6 @@ p {
   grid-column: 1;
   text-align: center;
   margin: 0;
-  margin-top: 2em;
 }
 
 .om_p {
@@ -167,7 +166,6 @@ p {
 .kalle_bilde {
   grid-row: 2/4;
   grid-column: 2;
-  margin-top: 8em;
   margin-right: 2em;
 }
 img {
