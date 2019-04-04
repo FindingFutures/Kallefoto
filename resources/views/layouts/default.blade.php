@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ mix('/css/master.css')}}">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-Bx4pytHkyTDy3aJKjGkGoHPt3tvv6zlwwjc3iqN7ktaiEMLDPqLSZYts2OjKcBx1" crossorigin="anonymous">
+  <script async src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
 
   @yield('seo')
 
@@ -383,7 +386,9 @@
 </footer>
   <p class="findingfutures">Designa og utvikla av <a rel="noopener" href="https://findingfutures.eu/" target="_blank">Finding Futures</a>.</p>
 
-<script async>
+
+
+<script>
  $(document).ready(function(){
    $("a").on('click', function(event) {
      if (this.hash !== "") {
@@ -399,6 +404,8 @@
  });
 </script>
 
+<script type="text/javascript" src="{{ asset('js/jquery.lazy.min.js') }}"></script>
+
 <script type="text/javascript">
   $('.lazyImage').Lazy({
     scrollDirection: 'vertical',
@@ -409,11 +416,6 @@
     }
   });
 </script>
-
-<script defer src="https://code.jquery.com/jquery-3.3.1.min.js"
-integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-crossorigin="anonymous"></script>
-<script defer type="text/javascript" src="{{ asset('js/jquery.lazy.min.js') }}"></script>
 
 </body>
 </html>
