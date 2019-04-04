@@ -16,6 +16,9 @@
           @endif
           <div class="title">
             Dashbord
+            <a href="/admin" class="btn btn-sm btn-primary float-right">
+              Gå Heim
+            </a>
           </div>
           <hr>
           <div class="card">
@@ -32,7 +35,35 @@
               </form>
             </div>
           </div>
+
           <hr>
+
+          <div class="card mb-3">
+            <div class="card-header">
+              Last opp bilde
+            </div>
+            <div class="card-body">
+              <form class="form" method="POST" action="/upload/image" enctype="multipart/form-data">
+                @csrf
+                <p style="font-size: 12px; margin: 0;">Bilde burde vere under 8MB</p>
+                <div class="row mb-3">
+                  <div class="col">
+                    <input type="hidden" name="_method" value="PUT">
+                    <input type="file" name="image" value="" class="form-control">
+                  </div>
+                  <div class="col">
+                    <select class="form-control" name="subpage_id">
+                      <option selected value="{{ $subpage->id }}">{{ $subpage->title }}</option>
+                    </select>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-sm btn-success">Submit</button>
+              </form>
+            </div>
+          </div>
+
+          <hr>
+
           <div class="card">
             <div class="card-header">
               Bilder
