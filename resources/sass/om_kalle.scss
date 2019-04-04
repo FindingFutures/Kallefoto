@@ -40,7 +40,9 @@ img {
   display: none;
 }
 
-
+#layer_1 {
+  z-index: -1000;
+}
 
 .st0 {
   z-index: -999;
