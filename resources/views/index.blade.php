@@ -44,13 +44,13 @@ Heim
   		<div class="breidd">
         <i class="fas fa-image ikon"></i>
   			<div class="title">Fotografi</div>
-  			<div class="tekst">Bilete av ynskja motiv kan tingast på lerret, fotopapir, glas eller stålplater. Alt etter det du likar best.</div>
+  			<div class="tekst">Bilete av ynskja motiv kan tingast på lerret, fotopapir, glas, stålplater eller digitalt. Alt etter det du føretrekkjer.</div>
   		</div>
 
   		<div class="breidd">
         <i class="fas fa-birthday-cake ikon"></i>
   			<div class="title">Store dagar</div>
-  			<div class="tekst">Fødselsdagar, konfirmasjonar og bryllup er dagar som må markerast og hugsast, gjerne med eit fint bilete.</div>
+  			<div class="tekst">Fødselsdagar, konfirmasjonar og bryllaup er dagar som må markerast og hugsast, gjerne med eit fint bilete.</div>
   		</div>
 
   		<div class="breidd" style="border-right: none;">

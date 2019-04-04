@@ -33,7 +33,12 @@
 
 <div class="grid_om">
   <h1 class="om_title">Karl Johan Ølnes</h1>
-  <p class="om_p">{{ $about->body }}</p>
+  <p class="om_p">Eg er ein sjølvlært amatørfotograf som har hatt stor interesse for fotografering heilt sidan 2002. For nokre år sidan starta eg firmaet mitt «Kallefoto».<br>
+Naturen er ei viktig inspirasjonskjelde for meg, difor er mange av bileta mine frå naturen. Eg har i tillegg til naturfotografering drive med fotografering av arbeidsprosessar som t.d. bygginga av nye Loftesnesbrua i Sogndal. Eg har også teke bilete til bruk i brosjyrar, kalendrar og blad. Ved familiehendingar har eg også vore fotograf, derav konfirmasjonar, fødselsdagar og bryllaup.<br>
+Dei siste åra har eg laga ein kalender med bilete frå Sogndal der overskotet har gått til Kreftforeininga.<br>
+Eg redigera ikkje bileta mine, difor er biletet slik eg såg motivet den dagen. Dei har då den mest naturlege utsjånaden.<br>
+I 2014 hadde eg ein fotoutstilling på Sogndal Storsenter. Bileta mine fekk god kritikk og alle vart selde.<br>
+Kundane mine har vore/er privatpersonar, organisasjonar, bedrifter og institusjonar. Ynskjer du eit bilete er det berre å ta kontakt.</p>
   <div class="kalle_bilde"><img src="https://images.unsplash.com/photo-1553531768-695dbbeb5f94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1269&q=80"></div>
 </div>
 
