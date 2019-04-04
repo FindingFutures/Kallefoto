@@ -70,7 +70,7 @@ window.cookieconsent.initialise({
 @endif
 
 @if (Request::is('om_kallefoto') || Request::is('/'))
-  <header style="height: 75vh;">
+  <header style="height: 0;">
 @else
   <header>
 @endif
