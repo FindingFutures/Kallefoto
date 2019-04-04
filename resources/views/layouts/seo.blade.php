@@ -1,3 +1,5 @@
+
+
 <!-- Google / Search Engine Tags -->
 <meta itemprop="name" content="@php echo Config::get('app.name'); @endphp - @yield('title')">
 <meta itemprop="description" content="{{ page.description }}">

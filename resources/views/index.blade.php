@@ -5,6 +5,10 @@ Heim
 @endsection
 
 @section('seo')
+  
+  <meta name="description" content="{{ Config::get('app.description') }}" />
+  <meta name="keywords" content="kallefoto, sogndal foto, sogndal, karl johan ølnes"/>
+
   <!-- Google / Search Engine Tags -->
   <meta itemprop="name" content="{{ Config::get('app.name')}}">
   <meta itemprop="description" content="{{ Config::get('app.description') }}">

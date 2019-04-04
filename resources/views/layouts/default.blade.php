@@ -15,6 +15,19 @@ crossorigin="anonymous"></script>
 
   @yield('seo')
 
+{{-- Structured Data --}}
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Person",
+    "name": "Karl Johan Ølnes",
+    "alternateName": "Kallefoto",
+    "url": "https://kallefoto.no",
+    "image": "",
+    "jobTitle": "Photographer"
+  }
+</script>
+
   <!-- SEO & Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110310303-8"></script>
   <script>
