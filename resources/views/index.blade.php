@@ -59,7 +59,7 @@ Heim
 </div>
 <div class="bilder_galleri">
 
-  <svg class="first-svg" fill="#F1F1E6" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  <svg class="first-svg" fill="#F1F1E6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      viewBox="0 0 1920 180" style="enable-background:new 0 0 1920 180;" xml:space="preserve">
   <g>
     <path class="st0" d="M1750.1,90.7c-0.1,0.6-0.3,1.1-0.4,1.7c0.1,0,0.2,0,0.3,0C1750,91.8,1750,91.2,1750.1,90.7z"/>
@@ -687,7 +687,7 @@ Heim
     @endforeach
   </div>
 
-  <svg class="last-svg" fill="#F1F1E6" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  <svg class="last-svg" fill="#F1F1E6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      viewBox="0 0 1920 180" style="enable-background:new 0 0 1920 180;" xml:space="preserve">
   <g>
     <path class="st0" d="M1750.1,90.7c-0.1,0.6-0.3,1.1-0.4,1.7c0.1,0,0.2,0,0.3,0C1750,91.8,1750,91.2,1750.1,90.7z"/>

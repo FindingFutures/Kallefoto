@@ -27,7 +27,7 @@ crossorigin="anonymous"></script>
 </head>
 
 
-<body id="opp">
+<body>
 
 @if (Request::is('index') || Request::is('/'))
   <header id="opp" class="topImage" style="background-position: center 0px;">
@@ -283,7 +283,7 @@ crossorigin="anonymous"></script>
 @yield('body')
 
 <footer id="footer">
-  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
   	 viewBox="0 0 1920 222" style="enable-background:new 0 0 1920 222;" xml:space="preserve">
   <style type="text/css">
   	.st0{fill:#002323;}
@@ -360,9 +360,13 @@ crossorigin="anonymous"></script>
     @endif
     <h3 id="kontakt_meg">Kontakt meg her:</h3>
     @csrf
+    <label for="name">Navn</label>
     <input type="text" name="name" value="" placeholder="Navn" required>
+    <label for="email">E-Mail</label>
     <input type="text" name="email" value="" placeholder="E-Mail" required>
+    <label for="phone">Mobilnummer</label>
     <input type="text" name="phone" value="" placeholder="Mobilnummer" required>
+    <label for="body">Melding</label>
     <textarea name="body" placeholder="Melding" required></textarea>
     <button type="submit" name="submit">Send</button>
   </form>
