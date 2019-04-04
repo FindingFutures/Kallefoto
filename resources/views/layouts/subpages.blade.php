@@ -29,51 +29,6 @@
   <p>{{ $subpage->body }}</p>
   <div class="bilder_galleri">
 
-    <div class="">
-      @php
-        $num = 0;
-      @endphp
-      @foreach ($subpage->images as $image)
-        @php
-          $num ++;
-        @endphp
-        @if ($num % 2 != 0 && $num % 3 != 0)
-          <img class="lazyImage" data-src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="Bilde frå {{ $subpage->title }}, teke av Kallefoto">
-        @endif
-      @endforeach
-    </div>
-
-    <div class="">
-      @php
-        $num = 0;
-      @endphp
-      @foreach ($subpage->images as $image)
-        @php
-          $num ++;
-        @endphp
-        @if ($num % 2 == 0 && $num % 3 !== 0)
-          <img class="lazyImage" data-src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="Bilde frå {{ $subpage->title }}, teke av Kallefoto">
-        @endif
-      @endforeach
-    </div>
-
-    <div class="">
-      @php
-        $num = 0;
-      @endphp
-      @foreach ($subpage->images as $image)
-        @php
-          $num ++;
-        @endphp
-        @if ($num % 3 == 0)
-          <img class="lazyImage" data-src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="Bilde frå {{ $subpage->title }}, teke av Kallefoto">
-        @endif
-      @endforeach
-    </div>
-
-  </div>
-  <div class="bilder_galleri">
-
     <svg class="first-svg" fill="#F1F1E6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
        viewBox="0 0 1920 180" style="enable-background:new 0 0 1920 180;" xml:space="preserve">
     <g>
@@ -1288,5 +1243,6 @@
     </g>
     </svg>
   </div>
+
     <div class="pil_breidd"><a class="pil_a" href="#ned"><div class="fas fa-arrow-circle-up"></div></a></div>
   </main>
