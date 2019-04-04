@@ -3,7 +3,7 @@
 This is the Github repo containing all source code for[ Kallefoto's website.](https://kallefoto.no " Kallefoto website.")
 
 ### Disclaimer
-The project is made by [ Fidning Futures](https://findingfutures.eu " Finding Fututures website.") for Kallefoto.
+The project is made by [ Finding Futures](https://findingfutures.eu " Finding Fututures website.") for Kallefoto.
 
 This project is not made for redistribution, and there is no documentation, or comments in the code explaining what is happening. 
 
