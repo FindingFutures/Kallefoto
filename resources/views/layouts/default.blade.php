@@ -69,6 +69,12 @@ window.cookieconsent.initialise({
   <header>
 @endif
 
+@if (Request::is('om_kallefoto') || Request::is('/'))
+  <header style="height: 75vh;">
+@else
+  <header>
+@endif
+
     <nav class="nav_background">
     <a href="/" class="understrek">Heim</a>
       <div class="dropdown">
