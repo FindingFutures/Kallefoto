@@ -6,7 +6,7 @@
   <title>Kallefoto @yield('title')</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ mix('/css/master.css')}}">
-  <link rel="stylesheet" href="{{ asset('/fonts/fontawesome.min.css') }}">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-Bx4pytHkyTDy3aJKjGkGoHPt3tvv6zlwwjc3iqN7ktaiEMLDPqLSZYts2OjKcBx1" crossorigin="anonymous">
 
   @yield('seo')
 
