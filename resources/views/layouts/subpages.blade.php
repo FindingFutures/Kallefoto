@@ -15,7 +15,7 @@
           $num ++;
         @endphp
         @if ($num % 2 != 0 && $num % 3 != 0)
-          <img src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="">
+          <img src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="Bilde frå {{ $subpage->title }}, teke av Kallefoto">
         @endif
       @endforeach
     </div>
@@ -29,7 +29,7 @@
           $num ++;
         @endphp
         @if ($num % 2 == 0 && $num % 3 !== 0)
-          <img src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="">
+          <img src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="Bilde frå {{ $subpage->title }}, teke av Kallefoto">
         @endif
       @endforeach
     </div>
@@ -43,7 +43,7 @@
           $num ++;
         @endphp
         @if ($num % 3 == 0)
-          <img src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="">
+          <img src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="Bilde frå {{ $subpage->title }}, teke av Kallefoto">
         @endif
       @endforeach
     </div>
