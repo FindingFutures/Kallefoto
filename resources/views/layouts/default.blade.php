@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 
 <head>
   <meta charset="utf-8">
@@ -385,9 +385,8 @@ crossorigin="anonymous"></script>
   </form>
 
   <hr>
-
-  <p class="findingfutures">Designa og utvikla av <a href="https://findingfutures.eu/" target="_blank">Finding Futures</a>.</p>
 </footer>
+  <p class="findingfutures">Designa og utvikla av <a rel="noopener" href="https://findingfutures.eu/" target="_blank">Finding Futures</a>.</p>
 
 <script>
  $(document).ready(function(){
