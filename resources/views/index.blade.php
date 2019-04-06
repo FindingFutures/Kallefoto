@@ -662,6 +662,20 @@ Heim
       @endif
     @endforeach
   </div>
+  <div class="">
+    @php
+      $num = 0;
+    @endphp
+    @foreach ($images as $image)
+      @php
+        $num ++;
+      @endphp
+      @if ($num % 3 == 0)
+        <img class="lazyImage stort_bilde" data-src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="Bilde teke av Kallefoto.">
+      @endif
+    @endforeach
+  </div>
+
 
   <div class="">
     @php
@@ -676,6 +690,19 @@ Heim
       @endif
     @endforeach
   </div>
+  <div class="">
+    @php
+      $num = 0;
+    @endphp
+    @foreach ($images as $image)
+      @php
+        $num ++;
+      @endphp
+      @if ($num % 3 == 0)
+        <img class="lazyImage stort_bilde" data-src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="Bilde teke av Kallefoto.">
+      @endif
+    @endforeach
+  </div>
 
   <div class="">
     @php
@@ -690,35 +717,6 @@ Heim
       @endif
     @endforeach
   </div>
-
-  <div class="">
-    @php
-      $num = 0;
-    @endphp
-    @foreach ($images as $image)
-      @php
-        $num ++;
-      @endphp
-      @if ($num % 3 == 0)
-        <img class="lazyImage stort_bilde" data-src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="Bilde teke av Kallefoto.">
-      @endif
-    @endforeach
-  </div>
-
-  <div class="">
-    @php
-      $num = 0;
-    @endphp
-    @foreach ($images as $image)
-      @php
-        $num ++;
-      @endphp
-      @if ($num % 3 == 0)
-        <img class="lazyImage stort_bilde" data-src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="Bilde teke av Kallefoto.">
-      @endif
-    @endforeach
-  </div>
-
   <div class="">
     @php
       $num = 0;
