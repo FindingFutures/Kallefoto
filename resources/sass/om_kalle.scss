@@ -1,6 +1,9 @@
 header {
   height: auto;
 }
+main {
+  overflow-x: hidden;
+}
 .grid_om {
   display: grid;
   grid-template-columns: 1fr 1fr;
