@@ -705,6 +705,34 @@ Heim
     @endforeach
   </div>
 
+  <div class="">
+    @php
+      $num = 0;
+    @endphp
+    @foreach ($images as $image)
+      @php
+        $num ++;
+      @endphp
+      @if ($num % 3 == 0)
+        <img class="lazyImage stort_bilde" data-src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="Bilde teke av Kallefoto.">
+      @endif
+    @endforeach
+  </div>
+
+  <div class="">
+    @php
+      $num = 0;
+    @endphp
+    @foreach ($images as $image)
+      @php
+        $num ++;
+      @endphp
+      @if ($num % 3 == 0)
+        <img class="lazyImage stort_bilde" data-src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="Bilde teke av Kallefoto.">
+      @endif
+    @endforeach
+  </div>
+
   <svg class="last-svg" fill="#F1F1E6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      viewBox="0 0 1920 180" style="enable-background:new 0 0 1920 180;" xml:space="preserve">
   <g>
