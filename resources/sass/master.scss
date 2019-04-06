@@ -226,7 +226,8 @@ p {
 
 @media (max-width: 500px) {
   h1 {
-    margin-top: .5em;
+    margin-top: 0;
+    font-size: 3em;
   }
   .bilder_galleri {
     grid-template-columns: 1fr;
@@ -238,7 +239,7 @@ p {
     font-size: 1.6em;
   }
   #opp {
-    height: 28rem;
+    height: 29.5rem;
   }
   .homeMain {
     padding-top: 29rem;
