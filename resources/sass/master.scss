@@ -224,8 +224,11 @@ p {
   }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 500px) {
   .bilder_galleri {
     grid-template-columns: 1fr;
+  }
+  .pil {
+    font-size: 2em;
   }
 }
