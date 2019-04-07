@@ -467,7 +467,7 @@ window.cookieconsent.initialise({
 <script>
 function hamburgerFunksjon() {
   var x = document.getElementById("nav_linkar");
-  if (x.style.display === "block") {
+  if (x.style.transform === "scaleY(1)") {
     x.style.transform= "scaleY(0)";
   } else {
     x.style.transform= "scaleY(1)";
@@ -475,7 +475,7 @@ function hamburgerFunksjon() {
 }
 function stadarFunksjon() {
   var x = document.getElementById("nav_stadar");
-  if (x.style.display === "block") {
+  if (x.style.transform === "scaleY(1)") {
     x.style.transform= "scaleY(0)";
   } else {
     x.style.transform= "scaleY(1)";
