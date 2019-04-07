@@ -87,7 +87,7 @@ window.cookieconsent.initialise({
     </nav>
 
     <div class="nav_mobil">
-      <a href="index" class="active">Logo</a>
+      <a href="/" class="active">Logo</a>
       <div id="nav_linkar">
         <a href="/">Heim</a>
         <a href="/om">Om Kallefoto</a>
