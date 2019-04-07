@@ -474,7 +474,7 @@ function hamburgerFunksjon() {
   }
 }
 function stadarFunksjon() {
-  var x = document.getElementById("nav_stadar");
+  var x = document.getElementById("nav_linkar");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
