@@ -213,11 +213,11 @@ header {
 }
 
 .nav_mobil #nav_linkar {
-  display: none;
+  transform: scaleY(0);
 }
 
 .nav_mobil #nav_stadar {
-  display: none;
+  transform: scaleY(0);
 }
 
 .nav_mobil a {
