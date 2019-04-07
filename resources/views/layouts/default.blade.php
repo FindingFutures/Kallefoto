@@ -103,8 +103,9 @@ window.cookieconsent.initialise({
 
       <a href="javascript:void(0);" class="ham_ikon" onclick="hamburgerFunksjon()">
         <i class="fa fa-bars"></i>
+        <a href="javascript:void(0);" class="stadar_link" onclick="stadarFunksjon()">Stadar</a>
       </a>
-      <a href="javascript:void(0);" class="stadar_link" onclick="stadarFunksjon()">Stadar</a>
+
 
     </div>
 
