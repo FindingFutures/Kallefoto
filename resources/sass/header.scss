@@ -216,6 +216,10 @@ header {
   display: none;
 }
 
+.nav_mobil #nav_stadar {
+  display: none;
+}
+
 .nav_mobil a {
   color: #232323;
   padding: 14px 16px;
@@ -225,14 +229,6 @@ header {
 }
 
 .nav_mobil a.ham_ikon {
-  background: none;
-  display: block;
-  position: absolute;
-  right: 1em;
-  top: 0;
-}
-
-.nav_mobil a.stadar_link {
   background: none;
   display: block;
   position: absolute;
