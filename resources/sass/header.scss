@@ -250,5 +250,9 @@ header {
   }
   .nav_mobil {
     opacity: 1;
+    z-index: 2000;
+  }
+  .nav_linkar {
+    z-index: 2001;
   }
 }
