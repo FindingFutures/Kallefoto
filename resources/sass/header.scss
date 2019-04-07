@@ -212,6 +212,14 @@ header {
   position: fixed;
 }
 
+.nav_mobil #nav_linkar {
+  display: none;
+}
+
+.nav_mobil #nav_stadar {
+  display: none;
+}
+
 .nav_mobil a {
   color: #232323;
   padding: 14px 16px;
