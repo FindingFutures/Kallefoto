@@ -468,17 +468,17 @@ window.cookieconsent.initialise({
 function hamburgerFunksjon() {
   var x = document.getElementById("nav_linkar");
   if (x.style.display === "block") {
-    x.style.display = "none";
+    x.animate({display: "none"});
   } else {
-    x.style.display = "block";
+    x.animate({display: "block"});
   }
 }
 function stadarFunksjon() {
   var x = document.getElementById("nav_stadar");
   if (x.style.display === "block") {
-    x.style.display = "none";
+    x.animate({display: "none"});
   } else {
-    x.style.display = "block";
+    x.animate({display: "block"});
   }
 }
 </script>
