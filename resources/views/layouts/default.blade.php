@@ -91,11 +91,13 @@ window.cookieconsent.initialise({
       <div id="nav_linkar">
         <a href="">Heim</a>
         <a href="/om">Om Kallefoto</a>
-        <a href="">Sogndal</a>
-        <a href="">Luster</a>
-        <a href="">Balestrand</a>
-        <a href="">Leikanger</a>
-        <a href="">Bilar</a>
+        <div id="nav_stadar">
+          <a href="">Sogndal</a>
+          <a href="">Luster</a>
+          <a href="">Balestrand</a>
+          <a href="">Leikanger</a>
+          <a href="">Bilar</a>
+        </div>
         <a href="#kontakt_meg" class="understrek kontakt_a">Kontakt meg</a>
       </div>
 
