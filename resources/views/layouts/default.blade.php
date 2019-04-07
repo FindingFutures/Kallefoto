@@ -468,17 +468,17 @@ window.cookieconsent.initialise({
 function hamburgerFunksjon() {
   var x = document.getElementById("nav_linkar");
   if (x.style.display === "block") {
-    $(x).animate({height: "0"});
+    $('#nav_linkar').animate({height: "0"});
   } else {
-    $(x).animate({height: "auto"});
+    $('#nav_linkar').animate({height: "auto"});
   }
 }
 function stadarFunksjon() {
   var x = document.getElementById("nav_stadar");
   if (x.style.display === "block") {
-    $(x).animate({height: "0"});
+    $('#nav_linkar').animate({height: "0"});
   } else {
-    $(x).animate({height: "auto"});
+    $('#nav_linkar').animate({height: "auto"});
   }
 }
 </script>
