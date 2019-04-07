@@ -231,10 +231,12 @@ header {
 .nav_mobil a.ham_ikon {
   background: none;
   display: block;
-  border: none;
   position: absolute;
   right: .5em;
   top: 0;
+}
+.nav_mobil i {
+  border: none;
 }
 
 #nav_linkar {
