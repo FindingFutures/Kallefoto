@@ -10,6 +10,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   @yield('seo')
 
@@ -84,6 +85,23 @@ window.cookieconsent.initialise({
     <a href="/om" class="understrek">Om Kallefoto</a>
     <a href="#kontakt_meg" class="understrek kontakt_a">Kontakt meg</a>
     </nav>
+
+    <div class="nav_mobil">
+      <a href="index" class="active">Logo</a>
+      <div id="nav_linkar">
+        <a href="heim_mobil">Heim</a>
+        <a href="om_mobil">Om Kallefoto</a>
+        <a href="stadar_mobil">Sogndal</a>
+        <a href="">Luster</a>
+        <a href="">Balestrand</a>
+        <a href="">Leikanger</a>
+        <a href="">Bilar</a>
+      </div>
+
+      <a href="javascript:void(0);" class="ham_ikon" onclick="hamburgerFunksjon()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
 
     @if (Request::is('index') || Request::is('/'))
       <h1>Kallefoto</h1>
@@ -441,5 +459,16 @@ window.cookieconsent.initialise({
   });
 </script>
 
+<script>
+
+function hamburgerFunksjon() {
+  var x = document.getElementById("nav_linkar");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
 </body>
 </html>

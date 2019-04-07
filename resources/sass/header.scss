@@ -203,3 +203,41 @@ header {
     text-align: center;
   }
 }
+
+/* navbar mobil */
+
+.nav_mobil {
+  overflow: hidden;
+  background-color: #FFF;
+  position: relative;
+}
+
+.nav_mobil #nav_linkar {
+  display: none;
+}
+
+.nav_mobil a {
+  color: #232323;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.nav_mobil a.ham_ikon {
+  background: #FFF;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#nav_linkar {
+  transition: width 2s;
+  text-align: center;
+}
+
+.active {
+  background-color: #FFF;
+  color: white;
+}
