@@ -465,12 +465,14 @@ window.cookieconsent.initialise({
 </script>
 
 <script type="text/javascript">
+  function hamburgerFunksjon() {
       $(document).ready(function(){
         $('.ham.ikon').click(function(){
           $('.nav_mobil').toggleClass('active')
           $('i').toggleClass('notactive');
         })
       })
+      }
   </script>
 
 {{-- <script>
