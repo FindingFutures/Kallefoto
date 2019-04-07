@@ -401,7 +401,7 @@ window.cookieconsent.initialise({
     <textarea name="body" placeholder="Melding" required></textarea></label>
     <button type="submit" name="submit">Send</button>
   </form>
-  <div class="footer_p">
+  <div class="footer_p" style="grid-column: 3;">
     <p>Eller her: kallebilde@gmail.com eller tlf: 97194135<br> Alle rettigheitar tilhøyrer Karl Johan Ølnes<br>
     Copyright Kallefoto {{ date('Y') }}</p>
   </div>
