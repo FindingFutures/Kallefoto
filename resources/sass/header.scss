@@ -232,6 +232,14 @@ header {
   top: 0;
 }
 
+.nav_mobil a.stadar_link {
+  background: none;
+  display: block;
+  position: absolute;
+  right: 1em;
+  top: 0;
+}
+
 #nav_linkar {
   transition: width 2s;
   text-align: center;
@@ -243,7 +251,7 @@ header {
 
 .active {
   background-color: #FFF;
-  color: white;
+  color: #FFF;
 }
 .nav_mobil {
   opacity: 0;

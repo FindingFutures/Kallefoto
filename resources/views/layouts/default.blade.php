@@ -104,7 +104,7 @@ window.cookieconsent.initialise({
       <a href="javascript:void(0);" class="ham_ikon" onclick="hamburgerFunksjon()">
         <i class="fa fa-bars"></i>
       </a>
-      <a href="javascript:void(0);" onclick="stadarFunksjon()">Stadar</a>
+      <a href="javascript:void(0);" class="stadar_link" onclick="stadarFunksjon()">Stadar</a>
 
     </div>
 
@@ -474,7 +474,7 @@ function hamburgerFunksjon() {
   }
 }
 function stadarFunksjon() {
-  var x = document.getElementById("nav_linkar");
+  var x = document.getElementById("nav_stadar");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
