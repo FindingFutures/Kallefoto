@@ -208,16 +208,17 @@ header {
 
 .nav_mobil {
   width: 100%;
-  background-color: #FFF;
   position: fixed;
 }
 
 .nav_mobil #nav_linkar {
   transform: scaleY(0);
+  background-color: #FFF;
 }
 
 .nav_mobil #nav_stadar {
   transform: scaleY(0);
+  background-color: #FFF;
 }
 
 .nav_mobil a {
