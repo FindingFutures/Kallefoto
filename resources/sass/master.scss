@@ -173,6 +173,10 @@ p {
     }
   }
 
+  .footer_p {
+    grid-column: 3;
+  }
+
   & img {
     width: 100%;
     display: block;
