@@ -32,8 +32,6 @@
 
 @section('body')
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
 <main id="ned">
 
 <div class="grid_om">
