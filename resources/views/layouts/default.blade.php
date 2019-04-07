@@ -103,7 +103,6 @@ window.cookieconsent.initialise({
       <a href="javascript:void(0);" class="ham_ikon" onclick="hamburgerFunksjon()">
         <i class="fa fa-bars"></i>
       </a>
-
     </div>
 
     @if (Request::is('index') || Request::is('/'))
