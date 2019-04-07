@@ -91,7 +91,7 @@ window.cookieconsent.initialise({
       <div id="nav_linkar">
         <a href="">Heim</a>
         <a href="/om">Om Kallefoto</a>
-        <div id="nav_stadar">Stadar
+        <div id="nav_stadar">
           <a href="">Sogndal</a>
           <a href="">Luster</a>
           <a href="">Balestrand</a>
@@ -104,6 +104,7 @@ window.cookieconsent.initialise({
       <a href="javascript:void(0);" class="ham_ikon" onclick="hamburgerFunksjon()">
         <i class="fa fa-bars"></i>
       </a>
+      <a href="javascript:void(0);" onclick="stadarFunksjon()">Stadar</a>
     </div>
 
     @if (Request::is('index') || Request::is('/'))
@@ -463,9 +464,16 @@ window.cookieconsent.initialise({
 </script>
 
 <script>
-
 function hamburgerFunksjon() {
   var x = document.getElementById("nav_linkar");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function stadarFunksjon() {
+  var x = document.getElementById("nav_stadar");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
