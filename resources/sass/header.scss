@@ -241,3 +241,9 @@ header {
   background-color: #FFF;
   color: white;
 }
+
+@media (max-width: 500px) {
+  .nav_background {
+    display: none;
+  }
+}
