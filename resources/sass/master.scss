@@ -180,10 +180,7 @@ p {
   }
 
   @media (max-width: 1024px) {
-    & div:nth-of-child(2) {
-      display: none;
-    }
-    & div:nth-of-child(3) {
+    & .image-gal-1, & .image-gal-2 {
       display: none;
     }
   }
