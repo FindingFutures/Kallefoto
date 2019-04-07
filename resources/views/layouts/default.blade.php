@@ -91,8 +91,8 @@ window.cookieconsent.initialise({
       <div id="nav_linkar">
         <a href="">Heim</a>
         <a href="/om">Om Kallefoto</a>
-        <div id="nav_stadar">
-          <a href="javascript:void(0);" class="stadar_link" onclick="stadarFunksjon()">Stadar</a>
+        <div id="nav_stadar">Stadar
+          <a href="javascript:void(0);" class="stadar_link" onclick="stadarFunksjon()"></a>
           <a href="">Sogndal</a>
           <a href="">Luster</a>
           <a href="">Balestrand</a>
