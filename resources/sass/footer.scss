@@ -36,6 +36,13 @@ footer {
     width: 100%;
     margin: 1rem;
     margin-top: 0;
+
+    @media(max-width: 700px){
+      & {
+        margin: 0;
+        margin-left: 0;
+      }
+    }
   }
 
   & a {
@@ -77,6 +84,24 @@ footer {
     margin-top: .2rem;
     resize: vertical;
     height: 150px;
+  }
+
+  & button {
+    background-color: #62A462;
+    border: 0;
+    color: #FFF;
+    font-family: Lato;
+    font-size: .8rem;
+    padding: .3rem 1rem;
+    border-radius: 4px;
+    transition: background-color 150ms ease;
+
+    &:hover {
+      box-shadow: 0 0 5px #00000040;
+      background-color: #A7D069;
+      cursor: pointer;
+      transition: background-color 150ms ease;
+    }
   }
 
   & hr {
