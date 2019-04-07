@@ -241,9 +241,14 @@ header {
   background-color: #FFF;
   color: white;
 }
-
+.nav_mobil {
+  opacity: 0;
+}
 @media (max-width: 500px) {
   .nav_background {
     display: none;
+  }
+  .nav_mobil {
+    opacity: 1;
   }
 }
