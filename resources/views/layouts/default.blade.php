@@ -92,18 +92,19 @@ window.cookieconsent.initialise({
         <a href="">Heim</a>
         <a href="/om">Om Kallefoto</a>
         <div id="nav_stadar">
+          <a href="javascript:void(0);" class="stadar_link" onclick="stadarFunksjon()">Stadar
           <a href="">Sogndal</a>
           <a href="">Luster</a>
           <a href="">Balestrand</a>
           <a href="">Leikanger</a>
           <a href="">Bilar</a>
+          </a>
         </div>
         <a href="#kontakt_meg" class="understrek kontakt_a">Kontakt meg</a>
       </div>
 
       <a href="javascript:void(0);" class="ham_ikon" onclick="hamburgerFunksjon()">
         <i class="fa fa-bars"></i>
-        <a href="javascript:void(0);" class="stadar_link" onclick="stadarFunksjon()">Stadar</a>
       </a>
 
 
