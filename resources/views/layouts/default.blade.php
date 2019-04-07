@@ -90,12 +90,13 @@ window.cookieconsent.initialise({
       <a href="index" class="active">Logo</a>
       <div id="nav_linkar">
         <a href="heim_mobil">Heim</a>
-        <a href="om_mobil">Om Kallefoto</a>
+        <a href="/om">Om Kallefoto</a>
         <a href="stadar_mobil">Sogndal</a>
         <a href="">Luster</a>
         <a href="">Balestrand</a>
         <a href="">Leikanger</a>
         <a href="">Bilar</a>
+        <a href="#kontakt_meg" class="understrek kontakt_a">Kontakt meg</a>
       </div>
 
       <a href="javascript:void(0);" class="ham_ikon" onclick="hamburgerFunksjon()">
