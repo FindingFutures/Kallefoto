@@ -649,7 +649,7 @@ Heim
   </g>
   </svg>
 
-  <div class="">
+  <div class="image-gal-1">
     @php
       $num = 0;
     @endphp
@@ -663,7 +663,7 @@ Heim
     @endforeach
   </div>
 
-  <div class="">
+  <div class="image-gal-2">
     @php
       $num = 0;
     @endphp
