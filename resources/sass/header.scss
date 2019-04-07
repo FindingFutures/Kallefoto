@@ -231,8 +231,9 @@ header {
 .nav_mobil a.ham_ikon {
   background: none;
   display: block;
+  box-shadow: none;
   position: absolute;
-  right: 1em;
+  right: .5em;
   top: 0;
 }
 
