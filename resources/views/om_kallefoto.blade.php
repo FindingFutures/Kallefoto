@@ -29,6 +29,9 @@
 
 @endsection
 
+
+@section('body')
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <main id="ned">
@@ -45,6 +48,4 @@ Kundane mine har vore/er privatpersonar, organisasjonar, bedrifter og institusjo
 </div>
 
 
-
-  </main>
-</html>
+@endsection
