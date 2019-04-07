@@ -207,7 +207,7 @@ header {
 /* navbar mobil */
 
 .nav_mobil {
-  overflow: hidden;
+  width: 100%;
   background-color: #FFF;
   position: fixed;
 }
@@ -225,10 +225,10 @@ header {
 }
 
 .nav_mobil a.ham_ikon {
-  background: #FFF;
+  background: none;
   display: block;
   position: absolute;
-  right: 0;
+  right: 1em;
   top: 0;
 }
 
