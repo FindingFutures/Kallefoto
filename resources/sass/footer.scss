@@ -26,6 +26,10 @@ footer {
     }
   }
 
+  .om_p {
+    grid-column: 3/4;
+  }
+
   & p {
     padding: 0;
     width: 100%;
