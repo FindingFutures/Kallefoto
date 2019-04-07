@@ -55,7 +55,7 @@ Heim
 
   		<div class="breidd" style="border-right: none;">
         <i class="fas fa-users ikon"></i>
-  			<div class="title">Hendingar</div>
+  			<div class="title">Reklame</div>
   			<div class="tekst">Treng du bilete til firmaet ditt, brosjyrar, kalendarar eller blad? Ta kontakt for ein hyggeleg prat.</div>
   		</div>
     </div>
