@@ -402,10 +402,10 @@ window.cookieconsent.initialise({
     <button type="submit" name="submit">Send</button>
   </form>
   <div class="">
-    <p>Kontakt meg på: kallebilde@gmail.com eller tlf: 97194135<br> Alle rettigheitar tilhøyrer Karl Johan Ølnes<br>
+    <p>Eller her: kallebilde@gmail.com eller tlf: 97194135<br> Alle rettigheitar tilhøyrer Karl Johan Ølnes<br>
     Copyright Kallefoto {{ date('Y') }}</p>
   </div>
-  
+
   <hr>
 </footer>
   <p class="findingfutures">Designa og utvikla av <a rel="noopener" href="https://findingfutures.eu/" target="_blank">Finding Futures</a>.</p>
