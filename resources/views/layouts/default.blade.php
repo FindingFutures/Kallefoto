@@ -464,18 +464,7 @@ window.cookieconsent.initialise({
   });
 </script>
 
-<script type="text/javascript">
-  function hamburgerFunksjon() {
-      $(document).ready(function(){
-        $('.ham.ikon').click(function(){
-          $('.nav_mobil').toggleClass('active')
-          $('i').toggleClass('notactive');
-        })
-      })
-      }
-  </script>
-
-{{-- <script>
+<script>
 function hamburgerFunksjon() {
   var x = document.getElementById("nav_linkar");
   if (x.style.transform === "scaleY(1)") {
@@ -491,7 +480,7 @@ function stadarFunksjon() {
   } else {
     x.style.transform= "scaleY(1)";
   }
-} --}}
+}
 </script>
 </body>
 </html>
