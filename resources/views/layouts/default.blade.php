@@ -67,7 +67,7 @@ window.cookieconsent.initialise({
 @if (Request::is('index') || Request::is('/'))
   <header id="opp" class="topImage" style="background-position: center 0px;">
 @else
-  <header style="margin-top: 0;">
+  <header style="margin-bottom: 0;">
 @endif
 
     <nav class="nav_background">
