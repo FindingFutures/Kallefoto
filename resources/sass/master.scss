@@ -153,6 +153,7 @@ p {
       & {
         width: 100vw;
         margin-left: 0;
+        grid-column: 1 / 2;
       }
     }
   }
@@ -167,6 +168,7 @@ p {
       & {
         width: 100vw;
         margin-left: 0;
+        grid-column: 1 / 2;
       }
     }
   }
@@ -175,6 +177,15 @@ p {
     width: 100%;
     display: block;
     margin-bottom: .5em;
+  }
+
+  @media (max-width: 1024px) {
+    & div:nth-of-child(2) {
+      display: none;
+    }
+    & div:nth-of-child(3) {
+      display: none;
+    }
   }
 }
 
