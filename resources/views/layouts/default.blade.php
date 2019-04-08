@@ -87,7 +87,7 @@ window.cookieconsent.initialise({
     </nav>
 
     <div class="nav_mobil">
-      <a href="/" class="active"><img src="https://images.unsplash.com/photo-1512790182412-b19e6d62bc39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80"></a>
+      <div class="active"><a href="/"><img src="https://images.unsplash.com/photo-1512790182412-b19e6d62bc39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80"></a></div>
       <div id="nav_linkar">
         <a href="/">Heim</a>
         <a href="/om">Om Kallefoto</a>
