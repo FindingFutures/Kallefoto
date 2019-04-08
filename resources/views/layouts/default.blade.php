@@ -87,7 +87,7 @@ window.cookieconsent.initialise({
     </nav>
 
     <div class="nav_mobil">
-      <a href="/" class="active"><img href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fhelpx.adobe.com%2Fin%2Fstock%2Fhow-to%2Fvisual-reverse-image-search%2F_jcr_content%2Fmain-pars%2Fimage.img.jpg%2Fvisual-reverse-image-search-v2_1000x560.jpg&imgrefurl=https%3A%2F%2Fhelpx.adobe.com%2Fin%2Fstock%2Fhow-to%2Fvisual-reverse-image-search.html&docid=0wiY1WMgNuIfHM&tbnid=rQTDgjlYUmwEsM%3A&vet=10ahUKEwjsl_2d4sDhAhVDyKYKHRJPBGwQMwhCKAMwAw..i&w=1000&h=560&bih=625&biw=1366&q=image&ved=0ahUKEwjsl_2d4sDhAhVDyKYKHRJPBGwQMwhCKAMwAw&iact=mrc&uact=8"></a>
+      <a href="/" class="active"><img src="..\kalle_foto\no\kalle_logo.png"></a>
       <div id="nav_linkar">
         <a href="/">Heim</a>
         <a href="/om">Om Kallefoto</a>
