@@ -87,7 +87,7 @@ window.cookieconsent.initialise({
     </nav>
 
     <div class="nav_mobil">
-      <div class="active"><a href="/" class="bilde_nav"><img src="‪{{asset("public/assets/bilder/kalle_logo.png")}}"></a></div>
+      <div class="active"><a href="/" class="bilde_nav"><img src="‪{{asset("../public/assets/bilder/kalle_logo.png")}}"></a></div>
       <div id="nav_linkar">
         <a href="/">Heim</a>
         <a href="/om">Om Kallefoto</a>
