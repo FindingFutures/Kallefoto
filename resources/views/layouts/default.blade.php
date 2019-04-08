@@ -337,7 +337,7 @@ window.cookieconsent.initialise({
 
 @yield('body')
 
-<footer id="footer">
+<footer id="footer kontakt_meg">
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
   	 viewBox="0 0 1920 222" style="enable-background:new 0 0 1920 222;" xml:space="preserve">
   <style type="text/css">
@@ -409,7 +409,7 @@ window.cookieconsent.initialise({
           <p class="error">{{ $error }}</p>
       @endforeach
     @endif
-    <h3 id="kontakt_meg">Kontakt meg her:</h3>
+    <h3>Kontakt meg her:</h3>
     @csrf
     <label for="name">Navn
     <input type="text" name="name" value="" placeholder="Navn" required></label>
