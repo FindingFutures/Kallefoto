@@ -84,7 +84,7 @@ window.cookieconsent.initialise({
       </div>
     <a href="/om" class="understrek">Om Kallefoto</a>
     <a href="#kontakt_meg" class="understrek kontakt_a">Kontakt meg</a>
-    <img src="‪{{asset("/assets/bilder/kalle_logo.png")}}" alt="logo"/>
+    <img class="logo_desktop" src="‪{{asset("/assets/bilder/kalle_logo.png")}}" alt="logo"/>
     </nav>
 
     <div class="nav_mobil">
