@@ -84,11 +84,11 @@ window.cookieconsent.initialise({
       </div>
     <a href="/om" class="understrek">Om Kallefoto</a>
     <a href="#kontakt_meg" class="understrek kontakt_a">Kontakt meg</a>
-    <div class="logo_desktop"><img src="https://kallefoto.no/images/logo.png" alt="logo" /></div>
+    <div class="logo_desktop"><img src="{{ asset('images/logo.png') }}" alt="logo" /></div>
     </nav>
 
     <div class="nav_mobil">
-      <div class="active"><a href="/" class="bilde_nav"><img src="‪https://kallefoto.no/images/logo.png" /></a></div>
+      <div class="active"><a href="/" class="bilde_nav"><img src="{{ asset('images/logo.png') }}" /></a></div>
       <div id="nav_linkar">
         <a href="/">Heim</a>
         <a href="/om">Om Kallefoto</a>
