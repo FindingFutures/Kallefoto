@@ -26,7 +26,7 @@
 <main id="ned">
 
   <h2 class="sub_title" style="margin-top: 15vh;">{{ $subpage->title }}</h2>
-  <p>{{ $subpage->body }}</p>
+  <p class="sub_p">{{ $subpage->body }}</p>
   <div class="bilder_galleri">
 
     <svg class="first-svg" fill="#F1F1E6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
