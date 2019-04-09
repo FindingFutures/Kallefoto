@@ -123,9 +123,17 @@ footer {
 }
 
 .logo_footer {
-  margin: 4em;
-  width: 15vw;
+  margin: auto;
+  width: 20vw;
+  margin-top: 2em;
   height: auto;
+}
+
+@media (max-width: 500px) {
+  .logo_footer {
+    width: 100%;
+    margin-top: 2em;
+  }
 }
 
 .findingfutures {
