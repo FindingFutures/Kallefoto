@@ -66,6 +66,12 @@ main {
   display: block;
 }
 
+@media (max-width: 500px) {
+  h2 {
+    margin-left: 0;
+    text-align: center;
+  }
+}
 
 p {
   grid-column: 2/5;
