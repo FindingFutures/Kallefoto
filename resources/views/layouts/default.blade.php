@@ -84,10 +84,11 @@ window.cookieconsent.initialise({
       </div>
     <a href="/om" class="understrek">Om Kallefoto</a>
     <a href="#kontakt_meg" class="understrek kontakt_a">Kontakt meg</a>
+    <div class="logo_desktop"><img src="{{ asset('images/logo.png') }}" alt="logo" /></div>
     </nav>
 
     <div class="nav_mobil">
-      <a href="/" class="active">Logo</a>
+      <div class="active"><a href="/" class="bilde_nav"><img src="{{ asset('images/logo.png') }}" /></a></div>
       <div id="nav_linkar">
         <a href="/">Heim</a>
         <a href="/om">Om Kallefoto</a>
@@ -424,6 +425,7 @@ window.cookieconsent.initialise({
   <div class="footer_p">
     <p>Eller her: kallebilde@gmail.com eller tlf: 97194135<br> Alle rettigheitar tilhøyrer Karl Johan Ølnes<br>
     Copyright Kallefoto {{ date('Y') }}</p>
+    <div class="logo_footer"><img src="{{ asset('images/logo.png') }}" /></div> 
   </div>
 
   <hr>

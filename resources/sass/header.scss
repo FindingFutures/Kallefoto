@@ -210,6 +210,15 @@ header {
   }
 }
 
+.nav_background .logo_desktop {
+  right: 5em;
+  position: absolute;
+  top: .5em;
+  display: block;
+  width: 3vw;
+  height: auto;
+}
+
 /* navbar mobil */
 
 .nav_mobil {
@@ -240,9 +249,13 @@ header {
   position: absolute;
   right: .5em;
   top: 0;
+  font-size: 1.5em;
+  margin: auto;
 }
 .nav_mobil i {
   border: none;
+  padding: 0;
+  margin: auto;
 }
 
 #nav_linkar {
@@ -259,9 +272,18 @@ header {
   color: #FFF;
 }
 
+.bilde_nav {
+  width: 0;
+  height: auto;
+}
+
 @media (max-width: 500px) {
   .nav_background {
     display: none;
+  }
+  .bilde_nav {
+    width: 12vw;
+    height: auto;
   }
   .nav_mobil {
     z-index: 2000;
