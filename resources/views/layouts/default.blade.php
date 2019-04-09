@@ -425,6 +425,7 @@ window.cookieconsent.initialise({
   <div class="footer_p">
     <p>Eller her: kallebilde@gmail.com eller tlf: 97194135<br> Alle rettigheitar tilhøyrer Karl Johan Ølnes<br>
     Copyright Kallefoto {{ date('Y') }}</p>
+    <img src="{{ asset('images/logo.png') }}" />
   </div>
 
   <hr>
