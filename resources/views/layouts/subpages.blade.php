@@ -25,7 +25,7 @@
 
 <main id="ned">
 
-  <h2 style="margin-top: 15vh;">{{ $subpage->title }}</h2>
+  <h2 class="sub_title" style="margin-top: 15vh;">{{ $subpage->title }}</h2>
   <p>{{ $subpage->body }}</p>
   <div class="bilder_galleri">
 
