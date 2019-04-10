@@ -159,3 +159,12 @@ footer {
     }
   }
 }
+
+@media (max-width: 500px) {
+  .footer_p {
+    grid-row: 1;
+  }
+  .contact_form {
+    grid-row: 2;
+  }
+}
