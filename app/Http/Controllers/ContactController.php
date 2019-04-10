@@ -30,7 +30,7 @@ class ContactController extends Controller
 
       $contact->save();
 
-      Mail::to('endrest@hotmail.no')->send(new contactSubmission($contact));
+      Mail::to('kallebilde@gmail.com')->send(new contactSubmission($contact));
 
       $success = 'Melding sent!';
       return Redirect::to(URL::previous() . "#footer")->withSuccess($success);
