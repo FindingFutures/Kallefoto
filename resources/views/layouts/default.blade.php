@@ -88,7 +88,7 @@ window.cookieconsent.initialise({
     </nav>
 
     <div class="nav_mobil">
-      <div class="active"><a href="/" class="bilde_nav"><img src="{{ asset('images/logo.png') }}" /></a></div>
+      <div class="active"><a href="/" class="bilde_nav"><img src="{{ asset('images/kalle_nav.png') }}" /></a></div>
 
       <a href="javascript:void(0);" class="ham_ikon" onclick="hamburgerFunksjon()">
         <i class="fa fa-bars"></i>
