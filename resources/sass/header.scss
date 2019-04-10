@@ -173,6 +173,12 @@ i {
   height: 60rem;
 }
 
+@media (max-width: 500px) {
+  .topImage {
+    background-attachment: scroll;
+  }
+}
+
 header {
   margin-bottom: -4rem;
   height: 40rem;
