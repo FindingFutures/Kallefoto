@@ -89,6 +89,10 @@ window.cookieconsent.initialise({
 
     <div class="nav_mobil">
       <div class="active"><a href="/" class="bilde_nav"><img src="{{ asset('images/logo.png') }}" /></a></div>
+
+      <a href="javascript:void(0);" class="ham_ikon" onclick="hamburgerFunksjon()">
+        <i class="fa fa-bars"></i>
+      </a>
       <div id="nav_linkar">
         <a href="/">Heim</a>
         <a href="/om">Om Kallefoto</a>
@@ -100,10 +104,6 @@ window.cookieconsent.initialise({
         </div>
         <a href="#kontakt_meg" class="understrek kontakt_a">Kontakt meg</a>
       </div>
-
-      <a href="javascript:void(0);" class="ham_ikon" onclick="hamburgerFunksjon()">
-        <i class="fa fa-bars"></i>
-      </a>
     </div>
 
     @if (Request::is('index') || Request::is('/'))
@@ -400,6 +400,11 @@ window.cookieconsent.initialise({
   	C1069.2,114.9,1068.9,114.8,1068.5,114.7z"/>
   </svg>
 
+  <div class="footer_p">
+    <p>Eller her: kallebilde@gmail.com eller tlf: 97194135<br> Alle rettigheitar tilhøyrer Karl Johan Ølnes<br>
+    Copyright Kallefoto {{ date('Y') }}</p>
+    <div class="logo_footer"><img src="{{ asset('images/logo.png') }}" /></div>
+  </div>
 
   <form class="contact_form" action="{{ Route('contact.create') }}" method="POST">
     @if (Session::has('success'))
@@ -422,11 +427,6 @@ window.cookieconsent.initialise({
     <textarea name="body" placeholder="Melding" required></textarea></label>
     <button type="submit" name="submit">Send</button>
   </form>
-  <div class="footer_p">
-    <p>Eller her: kallebilde@gmail.com eller tlf: 97194135<br> Alle rettigheitar tilhøyrer Karl Johan Ølnes<br>
-    Copyright Kallefoto {{ date('Y') }}</p>
-    <div class="logo_footer"><img src="{{ asset('images/logo.png') }}" /></div> 
-  </div>
 
   <hr>
 </footer>

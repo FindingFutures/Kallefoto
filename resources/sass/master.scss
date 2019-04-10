@@ -210,10 +210,6 @@ p {
 }
 
 @media (max-width: 1366px) {
-  h1 {
-    margin-top: 2em;
-    font-size: 4em;
-  }
   .pil {
     font-size: 4.5em;
   }
@@ -251,10 +247,6 @@ p {
 }
 
 @media (max-width: 500px) {
-  header h1 {
-    margin-top: 1.5em;
-    font-size: 3.3em;
-  }
   .bilder_galleri {
     grid-template-columns: 1fr;
   }
