@@ -305,7 +305,7 @@ header {
     display: none;
   }
   .bilde_nav {
-    width: 40vw;
+    width: 30vw;
     height: auto;
   }
   .nav_mobil {
@@ -316,5 +316,11 @@ header {
   }
   .logo_desktop {
     width: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .bilde_nav {
+    width: 40vw
   }
 }
