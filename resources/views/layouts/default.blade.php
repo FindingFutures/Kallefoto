@@ -403,7 +403,7 @@ window.cookieconsent.initialise({
   <div class="footer_p">
     <p>Eller her: kallebilde@gmail.com eller tlf: 97194135<br> Alle rettigheitar tilhøyrer Karl Johan Ølnes<br>
     Copyright Kallefoto {{ date('Y') }}</p>
-    <div class="logo_footer"><img src="{{ asset('images/logo.png') }}" /></div>
+    <div class="logo_footer"><img src="{{ asset('images/footer_logo.png') }}" /></div>
   </div>
 
   <form class="contact_form" action="{{ Route('contact.create') }}" method="POST">
