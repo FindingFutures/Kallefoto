@@ -697,7 +697,7 @@ Heim
     @endphp
     @foreach ($images as $image)
       @php
-        $num ++;
+        $num = 0;
       @endphp
       @if ($num > 20)
         <img class="lazyImage" data-src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="Bilde teke av Kallefoto.">
