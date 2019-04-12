@@ -65,6 +65,10 @@ main {
   }
 }
 
+.image-gal-mobile {
+  display: none;
+}
+
 .subpage_info {
   display: grid;
 
@@ -193,8 +197,12 @@ p {
   }
 
   @media (max-width: 1024px) {
-    & .image-gal-1, & .image-gal-2 {
+    .image-gal{
       display: none;
+    }
+
+    .image-gal-mobile {
+      display: block;
     }
   }
 }
@@ -217,7 +225,7 @@ p {
   }
   .info_grid {
     margin-bottom: .5em;
-  } 
+  }
 }
 
 @media (max-width: 1024px) {

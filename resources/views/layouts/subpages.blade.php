@@ -618,7 +618,7 @@
     </g>
     </svg>
 
-    <div class="image-gal-1">
+    <div class="image-gal">
       @php
         $num = 0;
       @endphp
@@ -632,7 +632,7 @@
       @endforeach
     </div>
 
-    <div class="image-gal-2">
+    <div class="image-gal">
       @php
         $num = 0;
       @endphp
@@ -646,7 +646,7 @@
       @endforeach
     </div>
 
-    <div class="">
+    <div class="image-gal">
       @php
         $num = 0;
       @endphp
@@ -656,6 +656,20 @@
         @endphp
         @if ($num % 3 == 0)
           <img class="lazyImage" data-src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="Bilde frå {{ $subpage->title }}, teke av Kallefoto" />
+        @endif
+      @endforeach
+    </div>
+
+    <div class="image-gal-mobile">
+      @php
+        $num = 0;
+      @endphp
+      @foreach ($images as $image)
+        @php
+          $num ++;
+        @endphp
+        @if ($num > 20)
+          <img class="lazyImage" data-src="{{ asset('/images/subpages/' . $image->small_image) }}" alt="Bilde teke av Kallefoto.">
         @endif
       @endforeach
     </div>
