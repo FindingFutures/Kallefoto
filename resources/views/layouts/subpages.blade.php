@@ -664,7 +664,7 @@
       @php
         $num = 0;
       @endphp
-      @foreach ($images as $image)
+      @foreach ($subpage->images as $image)
         @php
           $num ++;
         @endphp
