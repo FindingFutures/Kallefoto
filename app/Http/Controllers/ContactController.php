@@ -18,7 +18,8 @@ class ContactController extends Controller
         'name' => 'required',
         'email' => 'required|email',
         'body' => 'required|max:10000',
-        'phone' => 'required'
+        'phone' => 'required',
+        'g-recaptcha-response' => 'required|recaptcha'
       ));
 
       $contact = new Contact;
@@ -30,7 +31,7 @@ class ContactController extends Controller
 
       $contact->save();
 
-      Mail::to('kallebilde@gmail.com')->send(new contactSubmission($contact));
+      Mail::to('tobiasbarsnes@gmail.com')->send(new contactSubmission($contact));
 
       $success = 'Melding sent!';
       return Redirect::to(URL::previous() . "#footer")->withSuccess($success);

@@ -11,6 +11,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   @yield('seo')
@@ -426,6 +427,11 @@ window.cookieconsent.initialise({
     <input type="text" name="phone" value="" placeholder="Mobilnummer" required></label>
     <label for="body">Melding
     <textarea name="body" placeholder="Melding" required></textarea></label>
+    @if(env('GOOGLE_RECAPTCHA_KEY'))
+     <div class="g-recaptcha"
+          data-sitekey="{{env('GOOGLE_RECAPTCHA_KEY')}}">
+     </div>
+    @endif
     <button type="submit" name="submit">Send</button>
   </form>
 
