@@ -437,7 +437,7 @@ window.cookieconsent.initialise({
 
   <hr>
 </footer>
-  <p class="findingfutures">Designa og utvikla av <a rel="noopener" href="https://findingfutures.eu/" target="_blank">Finding Futures</a>.</p>
+  <p class="findingfutures">Designa og utvikla av Tobias Barsnes og Endre Stedje, <a rel="noopener" href="https://findingfutures.eu/" target="_blank">Finding Futures</a>.</p>
 
 
 
