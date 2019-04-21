@@ -428,7 +428,7 @@ window.cookieconsent.initialise({
     <label for="body">Melding
     <textarea name="body" placeholder="Melding" required></textarea></label>
     @if(env('GOOGLE_RECAPTCHA_KEY'))
-     <div class="g-recaptcha"
+     <div class="g-recaptcha" style="width:5rem;"
           data-sitekey="{{env('GOOGLE_RECAPTCHA_KEY')}}">
      </div>
     @endif
