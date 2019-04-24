@@ -42,7 +42,7 @@ Dei siste åra har eg laga ein kalender med bilete frå Sogndal der overskotet h
 Eg redigera ikkje bileta mine, difor er biletet slik eg såg motivet den dagen. Dei har då den mest naturlege utsjånaden.<br><br>
 I 2014 hadde eg ein fotoutstilling på Sogndal Storsenter. Bileta mine fekk god kritikk og alle vart selde.<br><br>
 Kundane mine har vore/er privatpersonar, organisasjonar, bedrifter og institusjonar. Ynskjer du eit bilete er det berre å ta kontakt.</p>
-  <div class="kalle_bilde"><img src="https://scontent.fosl2-1.fna.fbcdn.net/v/t1.0-9/56169761_1064979773692432_6284807004078735360_n.jpg?_nc_cat=103&_nc_ht=scontent.fosl2-1.fna&oh=272ae035aa089c2879880b4cf8e4c1b6&oe=5D08F208"></div>
+  <div class="kalle_bilde"><img src="{{ asset('images/kalle_om_bilde.jpg') }}"></div>
 </div>
 
 
