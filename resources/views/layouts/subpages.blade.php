@@ -622,7 +622,7 @@
       @php
         $num = 0;
       @endphp
-      @foreach ($subpage->images as $image)
+      @foreach ($subpage->images->reverse() as $image)
         @php
           $num ++;
         @endphp
@@ -636,7 +636,7 @@
       @php
         $num = 0;
       @endphp
-      @foreach ($subpage->images as $image)
+      @foreach ($subpage->images->reverse() as $image)
         @php
           $num ++;
         @endphp
@@ -650,7 +650,7 @@
       @php
         $num = 0;
       @endphp
-      @foreach ($subpage->images as $image)
+      @foreach ($subpage->images->reverse() as $image)
         @php
           $num ++;
         @endphp
