@@ -9,7 +9,7 @@ This project is not made for redistribution, and there is no documentation, or c
 
 All assets in the repo is copyrighted, and usage without permission is not allowed. Please contact Finding Futures or Kallefoto if you have any questions.
 
-Code is free to use, as long as credit is given to Finding Futures, and has at least one link on the index page, back to Finding Futures website (https://findingfutures.eu). You are responsible for making sure that there is no copyright or patent infringement occuring in you application.
+Code is free to use, as long as credit is given to Finding Futures, and has at least one link on the index page, back to Finding Futures website (https://findingfutures.eu). You are responsible for making sure that there is no copyright, trademar, or/and patent infringement occuring in you application.
 
 ## Tools Used
 
