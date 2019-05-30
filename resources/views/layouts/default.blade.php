@@ -56,7 +56,7 @@ window.cookieconsent.initialise({
   "position": "bottom-right",
   "content": {
     "message": "Denne nettstaden bruker cookies, slik at du får den beste opplevinga.",
-    "dismiss": "Sjønner!",
+    "dismiss": "Skjønner!",
     "link": "Lær meir"
   }
 })});
